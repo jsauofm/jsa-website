@@ -177,6 +177,16 @@ ol, ul{
     background-color: white;
 }
 
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
 .card {
   background-color: white;
   height: 25rem;
@@ -251,3 +261,64 @@ ol, ul{
   background: rgb(245, 154, 154);
   transition: all 265ms ease-out;
 }
+
+.event {
+    width: 20em;
+    height: 16rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px 0 lightgray;
+    margin: 0 auto;
+    overflow: hidden;
+    background-size: cover;
+  }
+  
+  .info {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-88px)
+      translateZ(0);
+    transition: transform 0.5s ease-out;
+  }
+  
+  .info:before {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%)
+      translateY(88px)
+      translateZ(0);
+    transition: transform 0.5s ease-out;
+  }
+  
+  .event:hover .info,
+  .event:hover .info:before {
+    transform: translateY(0) translateZ(0);
+  }
+  
+  .title {
+    margin: 0;
+    padding: 24px;
+    font-size: 40px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .description {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
