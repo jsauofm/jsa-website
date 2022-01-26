@@ -71,15 +71,26 @@ header{
 }
 
 body{
-    max-height: 100%;
-    height: 100%;
+
 	background: #FFFFFF;
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 14pt;
     line-height: 1.5;
     text-align: center;
 }
-		
+
+#wrapper {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+#content {
+    display:block;
+    width: 100%;
+    margin: auto;
+}
+
 h1, h2, h3{
     text-align: center;
 	margin: 0;
@@ -144,7 +155,7 @@ ol, ul{
     width: 500%;
     margin: 0;
     left: 0;
-    animation: 20s slider infinite;
+    animation: 18s slider infinite;
 }
 
 #slider figure img {
@@ -152,14 +163,18 @@ ol, ul{
     width: 20%;
 }
 
+.block {
+    display: block;
+}
+
 .container {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-gap: 50px;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: white;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 40px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
 .card {
@@ -236,4 +251,3 @@ ol, ul{
   background: rgb(245, 154, 154);
   transition: all 265ms ease-out;
 }
-
