@@ -311,9 +311,9 @@ ol, ul{
   .title {
     margin: 0;
     padding: 24px;
-    font-size: 40px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.87);
+    font-size: 30px;
+    color: rgb(245, 154, 154);
+    line-height: 1.5;
   }
   
   .description {
