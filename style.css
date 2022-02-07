@@ -2,20 +2,24 @@
 /* Styling Header */
 /*************************/
 header{	
-    margin: none;
+  margin: none;
 	overflow: hidden;
 }
 
 #top-header{
-    margin: none;
-	text-align: center;
-	height: 90px;
+  z-index: 1000; 
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: white;
 }
 
 /****************/
 /* Styling Logo */
 /****************/
 #logo{
+    position: top;
     float: left;
     height: 50px;
     background: white;
@@ -30,10 +34,11 @@ header{
 /* Styling Navigation Menu */
 /***************************/
 #menu{
-    background-color: white;
+  overflow: hidden;
+  background-color: white;
 	float: right;
 	height: 50px;
-	margin: none;
+  margin-bottom: 20px;
 }
 	
 #menu ul{
@@ -44,19 +49,19 @@ header{
 }
 	
 #menu li{
-    height: 50px;
+  height: 50px;
 	display: inline-block;
 	padding: none;
 	margin: none;
 }
 	
 #menu li a, #menu li span{
-    height: 50px;
+  height: 50px;
 	display: inline-block;
 	padding: 0px 40px;
 	text-decoration: none;
 	font-weight: 600;
-	line-height: 60px;
+	line-height: 50px;
 }
 	
 #menu li a{
@@ -71,11 +76,12 @@ header{
 }
 
 body{
+  margin-top: 70px;
 	background: #FFFFFF;
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 14pt;
-    line-height: 1.5;
-    text-align: center;
+  line-height: 1.5;
+  text-align: center;
 }
 
 #wrapper {
@@ -223,43 +229,22 @@ ol, ul{
   width: 13rem;
 }
 
-
-.social-icons {
-  padding: 0;
-  list-style: none;
-  margin: 1em;
+.fa {
+  color: white;
 }
 
-.social-icons li {
-  display: inline-block;
-  margin: 0.15em;
-  position: relative;
-  font-size: 1em;
+.circle-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
 }
 
-.social-icons i {
-  color: #fff;
-  position: absolute;
-  top: 0.95em;
-  left: 0.96em;
-  transition: all 265ms ease-out;
-}
-
-.social-icons a {
-  display: inline-block;
-}
-
-.social-icons a:before {
-  transform: scale(1);
-  -ms-transform: scale(1);
-  -webkit-transform: scale(1);
-  content: " ";
-  width: 45px;
-  height: 45px;
-  border-radius: 100%;
-  display: block;
-  background: rgb(245, 154, 154);
-  transition: all 265ms ease-out;
+.icon-background {
+  color: rgb(245, 154, 154);
 }
 
 .event {
