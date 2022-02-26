@@ -307,3 +307,42 @@ ol, ul{
     font-size: 18px;
     line-height: 1.5;
   }
+
+  .newsletter {
+    width: 20em;
+    height: 16rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px 0 lightgray;
+    margin: 0 auto;
+    overflow: hidden;
+    background-size: cover;
+  }
+
+  .newsletter:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+  }
+
+  .newsletter:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+  }
+
+  .newsletter:hover:before {
+    transform: scale(2.15);
+  }
