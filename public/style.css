@@ -82,6 +82,7 @@ body{
 	font-size: 14pt;
   line-height: 1.5;
   text-align: center;
+  width: 100%;
 }
 
 #wrapper {
@@ -118,7 +119,7 @@ ol, ul{
 	/* Set width of container to
 		1200px and align center */
 	margin: 0px auto;
-	width: 1200px;
+	width: 100%;
     height: 50%;
 }
 @keyframes slider {
