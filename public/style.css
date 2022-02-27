@@ -346,3 +346,19 @@ ol, ul{
   .newsletter:hover:before {
     transform: scale(2.15);
   }
+
+.button {
+  background-color:rgb(245, 154, 154);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.button:hover {
+  color: white;
+  box-shadow: 0 4px 8px 0 lightgray, 0 6px 10px 0 lightgray;
+}
