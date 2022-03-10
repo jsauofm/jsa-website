@@ -194,6 +194,16 @@ ol, ul{
     background-color: white;
 }
 
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
 .card {
   background-color: white;
   height: 25rem;
@@ -357,9 +367,14 @@ ol, ul{
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
+  border-radius: 20px;  
 }
 
 .button:hover {
   color: white;
   box-shadow: 0 4px 8px 0 lightgray, 0 6px 10px 0 lightgray;
+}
+
+.kazokuDescription {
+  margin: 0;
 }
