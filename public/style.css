@@ -119,7 +119,7 @@ ol, ul{
 	/* Set width of container to
 		1200px and align center */
 	margin: 0px auto;
-	width: 100%;
+	width: 1200px;
     height: 50%;
 }
 @keyframes slider {
