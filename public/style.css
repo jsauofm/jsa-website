@@ -16,7 +16,7 @@ header{
 }
 
 /****************/
-/* Styling Logo */
+/* Styling Logo test */
 /****************/
 #logo{
     position: top;
@@ -54,7 +54,8 @@ header{
 	padding: none;
 	margin: none;
 }
-	
+
+
 #menu li a, #menu li span{
   height: 50px;
 	display: inline-block;
