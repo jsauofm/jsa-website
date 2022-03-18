@@ -194,6 +194,16 @@ ol, ul{
     background-color: white;
 }
 
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
 .card {
   background-color: white;
   height: 25rem;
@@ -203,6 +213,7 @@ ol, ul{
   align-items: center;
   box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px 0 lightgray;
   color: black;
+  z-index: 1;
 }
 
 .card__name {
@@ -357,9 +368,40 @@ ol, ul{
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
+  border-radius: 20px;  
 }
 
 .button:hover {
   color: white;
   box-shadow: 0 4px 8px 0 lightgray, 0 6px 10px 0 lightgray;
+}
+
+.kazokuDescription {
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(8px);
+  clip-path: polygon(0 calc(100% - 100px),100% calc(100% - 100px),100% 100%,0% 100%);
+  transition: all 0.5s;
+  z-index: 2;
+}
+
+.card:hover .overlay {
+  clip-path: polygon(0 0,100% 0,100% 100%,0% 100%); 
+}
+
+.hidden-text {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  color: blue;
 }
