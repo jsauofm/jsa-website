@@ -12,7 +12,7 @@ header{
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  max-height: 11%;
+  height: 11%;
   background-color: white;
 }
 
@@ -28,8 +28,14 @@ header{
 
 #logo img{
 	float: left;
-    height: 4.5vw;
-    position: top;
+  height: 100%;
+  position: top;
+  padding: none;
+  margin: none;
+}
+
+.nav-height {
+  margin-top: 0.7%;
 }
 
 /***************************/
@@ -47,7 +53,7 @@ header{
 #menu ul{
 	text-align: center;
 	float: right;
-	margin: none;
+	margin-top: 3%;
 	background: white;
 }
 	
@@ -234,7 +240,7 @@ ol, ul{
 
 .card {
   background-color: white;
-  height: 25rem;
+  height: 100%;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -245,16 +251,23 @@ ol, ul{
 }
 
 .card__name {
-  margin-top: 15px;
+  margin-top: 5%;
   font-size: 1.5em;
 }
 
 .card__image {
-  height: 160px;
-  width: 160px;
+  height: 30%;
+  width: 50%;
   border-radius: 50%;
   border: 5px solid rgb(245, 154, 154);
-  margin-top: 20px;
+  margin-top: 10%;
+}
+
+.card__stats {
+  margin-top: 0%;
+  font-size: 1em;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .btn {
@@ -350,7 +363,7 @@ ol, ul{
 
   .newsletter {
     width: 20em;
-    height: 16rem;
+    height: 56%;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
