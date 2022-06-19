@@ -12,7 +12,8 @@ header{
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  height: 11%;
+  max-height: 100%;
+  min-height: 11%;
   background-color: white;
 }
 
@@ -24,6 +25,7 @@ header{
     float: left;
     height: 4.5vw;
     background: white;
+    margin-top: 0.7%;
 }
 
 #logo img{
@@ -32,10 +34,6 @@ header{
   position: top;
   padding: none;
   margin: none;
-}
-
-.nav-height {
-  margin-top: 0.7%;
 }
 
 /***************************/
@@ -48,6 +46,7 @@ header{
 	float: right;
 	height: 0%;
   margin-bottom: 0%;
+  margin-top: 0.7%;
 }
 	
 #menu ul{
@@ -221,21 +220,27 @@ ol, ul{
 .container2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
-    padding-bottom: 50px;
+    grid-gap: 1%;
+    padding-bottom: 0%;
     justify-content: center;
     align-items: center;
     background-color: white;
+    margin-bottom: 5%;
 }
 
 .container3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
-    padding-bottom: 0px;
+    padding-bottom: 0%;
     justify-content: center;
     align-items: center;
     background-color: white;
+}
+
+.archive {
+  margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 
 .card {
@@ -302,7 +307,7 @@ ol, ul{
 
 .event {
     width: 20em;
-    height: 16rem;
+    height: 100%;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -316,12 +321,13 @@ ol, ul{
   .info {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 100%;
     background-color: #fff;
     transform: translateY(100%)
-      translateY(-88px)
+      translateY(0)
       translateZ(0);
     transition: transform 0.5s ease-out;
+    padding-bottom: 6%;
   }
   
   .info:before {
@@ -336,7 +342,7 @@ ol, ul{
     background-size: cover;
     opacity: 0.25;
     transform: translateY(-100%)
-      translateY(88px)
+      translateY(0)
       translateZ(0);
     transition: transform 0.5s ease-out;
   }
@@ -348,7 +354,7 @@ ol, ul{
   
   .title {
     margin: 0;
-    padding: 24px;
+    padding: 6%;
     font-size: 30px;
     color: rgb(245, 154, 154);
     line-height: 1.5;
@@ -363,7 +369,7 @@ ol, ul{
 
   .newsletter {
     width: 20em;
-    height: 56%;
+    height: 100%;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -372,6 +378,8 @@ ol, ul{
     margin: 0 auto;
     overflow: hidden;
     background-size: cover;
+    margin-bottom: 0%;
+    padding-bottom: 6%;
   }
 
   .newsletter:hover {
