@@ -253,16 +253,25 @@ ol, ul{
   box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px 0 lightgray;
   color: black;
   z-index: 1;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .card__name {
   margin-top: 5%;
   font-size: 1.5em;
+  margin-bottom: 0%;
+}
+
+.card__name2 {
+  padding: 0%;
+  font-size: 1.2em;
+/*  color: #9a9af5;*/
 }
 
 .card__image {
   height: 30%;
-  width: 50%;
+  width: 55%;
   border-radius: 50%;
   border: 5px solid rgb(245, 154, 154);
   margin-top: 10%;
