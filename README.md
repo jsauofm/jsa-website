@@ -2,7 +2,14 @@
 
 This repository consists of a draft of the 2022 University of Michigan JSA website. Building on the model from last year, we decided to add more information about events, kazokus, and alumni as well as writing a more intuitive interface. This website is currently connected to the custom domain www.umichjsa.org. Feel free to check it out!
 
-# Instruction for Publishing to Custom Domain
+# Instructions for Changing Old Domain (hosted on UM domains)
+
+1. Follow the steps in https://its.umich.edu/computing/web-mobile/mfile/alternative-access to download Cyberduck.
+2. Once downloaded, navigate backward to /afs/umich.edu/group
+3. Navigate to u -> umjsaofficial -> Public -> html -> index.html
+4. To change redirection of the domain, right click and select "Edit With". Once in chosen text editor, change the URL in line 7. Ctrl+S to update the page.
+
+# Instructions for Publishing to Custom Domain
 
 1. Open Google Firebase. Open the "jsaumich-website" project.
 2. Under "Build", select "Hosting" where you can add a custom domain.
