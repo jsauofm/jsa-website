@@ -507,31 +507,28 @@ ol, ul{
   color: blue;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .alumni {
-  background-color: white;
-  height: 20rem;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto;
+  margin: 4rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
   align-items: center;
-  box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px 0 lightgray;
-  color: black;
-  z-index: 1;
+  border-bottom: lightgray 2px solid;
 }
 
-.alumni__name {
-  margin-top: 15px;
-  font-size: 1.5em;
+.alumni p {
+  margin-top: 0;
+  opacity: 80%;
 }
 
-.alumni__image {
-  height: 160px;
-  width: 160px;
-  border-radius: 50%;
-  border: 5px solid rgb(245, 154, 154);
-  margin-top: 20px;
-}
-
-.add_info {
-  font-size: 0.8em;
+.alumni img {
+  max-width: 300px;
 }
