@@ -526,7 +526,7 @@ img {
 }
 
 hr.solid {
-  border-top: 3px solid #bbb;
+  border-top: 2px solid #bbb;
   max-width: 1000px;
   margin: auto;
 }
