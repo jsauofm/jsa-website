@@ -507,10 +507,10 @@ ol, ul{
   color: blue;
 }
 
-img {
+/*img {
   width: 100%;
   height: auto;
-}
+}*/
 
 .alumni {
   display: inline-grid;
