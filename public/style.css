@@ -530,3 +530,8 @@ hr.solid {
   max-width: 1000px;
   margin: auto;
 }
+
+#calendar {
+  max-width: 1000px;
+  margin: 40px auto;
+}

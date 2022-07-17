@@ -6,6 +6,26 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- fullcalendar.io embed -->
+        <link href='fullcalendar/main.css' rel='stylesheet'/>
+        <script src='fullcalendar/main.js'></script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var calendarEl = document.getElementById('calendar');
+          var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            googleCalendarApiKey: 'AIzaSyC8GFK2RaPmxRuCNMdBUE-95fHrm0F2bnk',
+            events: {
+              googleCalendarId: 'umich.edu_vgo5e2oohe79pq36rkmbs2pv48@group.calendar.google.com',
+              color: 'green',
+              backgroundColor: 'green',
+              borderColor: 'green',
+              textColor: 'green'
+            }
+          });
+          calendar.render();
+        });
+        </script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTNKZYDPBD"></script>
         <script>
@@ -34,10 +54,10 @@
                     <ul>
                         <li><a href="jsa-events.html">Events</a></li>
                         <li><a href="jsa-newsletter.html">Newsletter</a></li>
-                        <li><a href="jsa-kazoku.html">Kazoku</a></li>
-                        <li><a href="jsa-business.html">Business</a></li>
+                        <li><a href="jsa-underconstructionpage.html">Kazoku</a></li>
+                        <li><a href="jsa-underconstructionpage.html">Business</a></li>
                         <li><a href="jsa-alumni.html">Alumni</a></li>
-                        <li><a href="jsa-merch.html">Merch</a></li>
+                        <li><a href="jsa-underconstructionpage.html">Merch</a></li>
                     </ul>
                 </div>
                 </nav>
@@ -71,8 +91,7 @@
             <div>
               <br>
               <h3 style="color:rgb(245, 154, 154)">UPCOMING EVENTS</h3>
-              <br>
-              <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%237986CB&ctz=America%2FNew_York&mode=MONTH&src=dW1pY2guZWR1X3ZnbzVlMm9vaGU3OXBxMzZya21iczJwdjQ4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23F4511E" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+              <div id='calendar'></div>
               <br>
               <br>
             </div>
