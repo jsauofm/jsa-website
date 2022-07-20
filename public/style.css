@@ -120,13 +120,11 @@ body{
 #wrapper {
     display: block;
     width: 100%;
-    margin: auto;
 }
 
 #content {
     display:block;
     width: 100%;
-    margin: auto;
 }
 
 h1, h2, h3{
@@ -578,7 +576,7 @@ hr.solid {
   color: rgb(245, 154, 154);
   text-decoration: none;
   font-weight: 600;
-  line-height: 1.5vw;
+/*  line-height: 1.5vw;*/
 }
 
 .navbar a:hover {
@@ -627,7 +625,7 @@ hr.solid {
     list-style-type: none;
     width: 100%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
     display: none;
   }
   .nav-space {
