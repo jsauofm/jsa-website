@@ -19,32 +19,28 @@
     <body class="d-flex flex-column min-vh-95">
       <div id="wrapper">
         <div id="content">
-          <!-- Header Menu of the Page -->
-          <header>
-            <!-- Top header menu containing
-                logo and Navigation bar -->
-            <div id="top-header">
-                <!-- Logo -->
-                <div id="logo">
-                    <a href="index.html"><img src="photos/jsa-pink-logo.PNG"/></a>
-                </div>       
-                <!-- Navigation Menu -->
-                <nav>
-                <div id="menu">
-                    <ul>
-                        <li><a href="jsa-events.html">Events</a></li>
-                        <li><a href="jsa-newsletter.html">Newsletter</a></li>
-                        <li><a href="jsa-underconstructionpage.html">Kazoku</a></li>
-                        <li><a href="jsa-underconstructionpage.html">Business</a></li>
-                        <li><a href="jsa-alumni.html">Alumni</a></li>
-                        <li><a href="jsa-underconstructionpage.html">Merch</a></li>
-                    </ul>
-                </div>
-                </nav>
-            </div>   
-          </header>
+          <nav class="navbar">
+            <div>
+              <a href="index.html"><img src="photos/jsa-pink-logo.PNG"/></a>
+            </div>
+            <div class="nav-space">
+              <ul class="nav-list" id="navi-list">
+                <li class="list-item"><a href="jsa-events.html">Events</a></li>
+                <li class="list-item"><a href="jsa-newsletter.html">Newsletter</a></li>
+                <li class="list-item"><a href="jsa-underconstructionpage.html">Kazoku</a></li>
+                <li class="list-item"><a href="jsa-underconstructionpage.html">Business</a></li>
+                <li class="list-item"><a href="jsa-alumni.html">Alumni</a></li>
+                <li class="list-item"><a href="jsa-underconstructionpage.html">Merch</a></li>
+              </ul>
+              <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+              </div>
+            </div>
+          </nav> 
           <!--Main content start-->
-          <div>
+          <div class="main-content">
             <br>
             <br>
             <br>
@@ -55,10 +51,7 @@
                 <br>
             <h4>It will be finished right before the school year starts so come check it out then!</h4>
             <br>
-            
           </div>
-          
-
         <div>
             <!--Return to Front page button-->
             <br>
@@ -78,4 +71,11 @@
           <p> 2022 <span>&#183;</span> Japan Student Association @ University of Michigan - Ann Arbor, MI</p>
         </footer>
     </body>
+    <script>
+      const toggleButton= document.getElementById('toggle-button')
+      const naviList= document.getElementById('navi-list')
+      toggleButton.addEventListener('click', () => {
+        naviList.classList.toggle('active');
+      })
+    </script>
 </html>

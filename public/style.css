@@ -109,7 +109,6 @@ header{
 }
 
 body{
-  margin-top: 70px;
 	background: #FFFFFF;
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 14pt;
@@ -140,6 +139,7 @@ h1, h2, h3{
 	
 p, ol, ul{
 	margin-top: 0;
+  margin-bottom: 0;
 }
 
 
@@ -548,5 +548,105 @@ hr.solid {
   color: #F06C6C;
 }
 
+.navbar {
+  background-color: white;
+  color: rgb(245, 154, 154);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
 
+.nav-space {
+  padding-right: 30px;
+}
 
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 20px 25px;
+
+}
+
+.navbar a {
+  color: rgb(245, 154, 154);
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 1.5vw;
+}
+
+.navbar a:hover {
+  color: rgb(253, 169, 169);
+}
+
+.navbar ul {
+  align-self: right;
+}
+
+.navbar img {
+  float: left;
+  height: 60px;
+  position: top;
+  padding: none;
+  margin: none;
+}
+
+.menu-line {
+  width: 20px;
+  height: 3px;
+  margin-bottom: 4px;
+  display: none;
+  background-color: rgb(245, 154, 154);
+}
+
+@media all and (max-width: 1050px) {
+  .navbar {
+    flex-direction: column;
+    position: sticky;
+    z-index: 2;
+  }
+  .navbar .container-icon {
+    width: 100%;
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+  .menu-line {
+    display: block;
+  }
+  .nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+  }
+  .nav-space {
+    padding-right: 0px;
+  }
+  .nav-list .list-item {
+    display: block;
+/*    border-top: 1px solid white;*/
+  }
+  .primary-icon {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .active {
+    display: block;
+    padding-top: 0px;
+  }
+}
+
+.main-content {
+  z-index: 1;
+}
