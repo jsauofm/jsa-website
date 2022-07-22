@@ -656,6 +656,14 @@ hr.solid {
   margin-left: 100px;
 }
 
+.footer {
+  background-color: rgb(245, 154, 154);
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /* breakpoint for mobile view */
 @media all and (max-width: 680px) {
   .descriptions {
@@ -664,7 +672,6 @@ hr.solid {
     margin-right: 50px;
     margin-left: 50px;
   }
-
   #calendar {
     max-width: 1000px;
     margin: 20px;
@@ -672,4 +679,8 @@ hr.solid {
     font-size: 15px;
     text-decoration: none;
   }
+  .footer {
+    font-size: 16px;
+  }
+
 }
