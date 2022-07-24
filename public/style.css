@@ -145,14 +145,8 @@ ol, ul{
 	padding: 0;
 	list-style: none;
 }
-	
-.container{
-	/* Set width of container to
-		1200px and align center */
-	margin: 0px auto;
-	width: 1200px;
-    height: 50%;
-}
+
+
 @keyframes slider {
     0% {
         left: 0;
@@ -202,13 +196,13 @@ ol, ul{
 }
 
 .block {
-    display: block;
+    display: inline-block;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
     padding-bottom: 50px;
     justify-content: center;
     align-items: center;
@@ -252,16 +246,16 @@ ol, ul{
 
 .card {
   background-color: white;
-  height: 100%;
-  border-radius: 5px;
+  width: 100%;
+  border-radius: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px 0 lightgray;
   color: black;
   z-index: 1;
-  padding-left: 5%;
-  padding-right: 5%;
+  height: 100%;
+  padding: 5%;
 }
 
 .sticker-card {
@@ -297,11 +291,11 @@ ol, ul{
 }
 
 .card__image {
-  height: 30%;
-  width: 55%;
+  height: auto;
+  width: 100%;
+  max-width: 150px;
   border-radius: 50%;
   border: 5px solid rgb(245, 154, 154);
-  margin-top: 10%;
 }
 
 .sticker__image {
@@ -684,4 +678,12 @@ hr.solid {
   .footer {
     font-size: 16px;
   }
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card {
+    font-size: 16px;
+  }
 }
+
+
