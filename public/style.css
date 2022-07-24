@@ -664,6 +664,15 @@ hr.solid {
   padding-bottom: 20px;
 }
 
+@media all and (max-width: 1200px) and (min-width: 800px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card {
+    font-size: 20px;
+  }
+}
+
 /* breakpoint for mobile view */
 @media all and (max-width: 680px) {
   .descriptions {
