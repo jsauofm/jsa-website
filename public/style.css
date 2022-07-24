@@ -350,9 +350,9 @@ ol, ul{
 }
 
 .event {
-    width: 20em;
+    width: 100%;
     height: 100%;
-    border-radius: 5px;
+    border-radius: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -360,7 +360,10 @@ ol, ul{
     margin: 0 auto;
     overflow: hidden;
     background-size: cover;
+    background-position: center;
   }
+
+
   
   .info {
     position: relative;
@@ -671,6 +674,9 @@ hr.solid {
   .card {
     font-size: 20px;
   }
+  .container2 {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* breakpoint for mobile view */
@@ -692,6 +698,9 @@ hr.solid {
   }
   .card {
     font-size: 16px;
+  }
+  .container2 {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
