@@ -489,12 +489,16 @@ ol, ul{
   max-width: 1000px;
   grid-template-rows: auto;
   gap: 1rem;
-  margin: 3rem;
+  margin-inline: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   grid-template-columns: 1fr 1fr;
 }
 
 .alumni img {
-  max-width: 350px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
 }
 
 hr.solid {
@@ -681,6 +685,15 @@ hr.solid {
   }
   .container2 {
     grid-template-columns: 1fr;
+  }
+  .alumni p, em {
+    font-size: 16px;
+  }
+  .alumni h4 {
+    font-size: 24px;
+  }
+  .alumni h5 {
+    font-size: 22px;
   }
 }
 
