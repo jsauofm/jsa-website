@@ -22,8 +22,6 @@ This repository consists of a draft of the 2022 University of Michigan JSA websi
 2. Make sure that all the useful files exist in the "Public" folder.
 3. Run `firebase deploy` to push the newest version of the website.
 
-# Setting up an SSH to interact with the repository
-
 # Steps for Updating the Page
 
 1. Navigate to where you've stored the local version of this repository.
@@ -36,5 +34,6 @@ This repository consists of a draft of the 2022 University of Michigan JSA websi
 
 # Set up Firebase Hosting
 
-1. Install Firebase CLI. To host your site with Firebase Hosting, you need the Firebase CLI (a command line tool). Use `npm install -g firebase-tools`
-2. Initialize your project. Open a terminal window and navigate to a root directory for your web app. Use `firebase login` to sign into Google and then `firebase init` initiate your project. When ready, use `firebase deploy` to deploy web app.
+1. Install Firebase CLI. To host your site with Firebase Hosting, you need the Firebase CLI (a command line tool). Use `npm install -g firebase-tools` (might need to do `sudo npm install -g firebase-tools`) if no permission.
+2. If above doesn't work, you may need to down npm. Follow the steps on this site: https://sebhastian.com/npm-install-not-working/, then return to step 1.
+3. Initialize your project. Open a terminal window and navigate to a root directory for your web app. Use `firebase login` to sign into Google. When ready with a change, use `firebase deploy` to deploy web app.
