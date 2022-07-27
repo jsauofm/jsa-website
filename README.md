@@ -34,6 +34,6 @@ This repository consists of a draft of the 2022 University of Michigan JSA websi
 
 # Set up Firebase Hosting
 
-1. Install Firebase CLI. To host your site with Firebase Hosting, you need the Firebase CLI (a command line tool). Use `npm install -g firebase-tools` (might need to do `sudo npm install -g firebase-tools`) if no permission.
+1. Install Firebase CLI. To host your site with Firebase Hosting, you need the Firebase CLI (a command line tool). Use `npm install -g firebase-tools` (might need to do `sudo npm install -g firebase-tools` if no permission).
 2. If above doesn't work, you may need to down npm. Follow the steps on this site: https://sebhastian.com/npm-install-not-working/, then return to step 1.
 3. Initialize your project. Open a terminal window and navigate to a root directory for your web app. Use `firebase login` to sign into Google. When ready with a change, use `firebase deploy` to deploy web app.
