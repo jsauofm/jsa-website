@@ -210,16 +210,15 @@ ol, ul{
 }
 
 .container2 {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2%;
-    padding-bottom: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin-bottom: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .container3 {
@@ -656,7 +655,7 @@ hr.solid {
     font-size: 20px;
   }
   .container2 {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .newsletter p {
     font-size: 20px;
@@ -696,5 +695,6 @@ hr.solid {
     font-size: 22px;
   }
 }
+
 
 
