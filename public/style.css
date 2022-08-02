@@ -743,3 +743,9 @@ hr.solid {
     width: 100%;
   }
 }
+
+@media all and (max-width: 400px) {
+  .sticker__image {
+    height: 48%;
+  }
+}
