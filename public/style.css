@@ -749,3 +749,17 @@ hr.solid {
     height: 48%;
   }
 }
+
+.row{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+.column{
+  width: 100%;
+}
+
+.center {
+  padding-top: 45px;
+  width: 100%;
+}
