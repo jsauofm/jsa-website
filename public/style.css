@@ -199,6 +199,12 @@ ol, ul{
     display: inline-block;
 }
 
+.block2 {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -233,7 +239,16 @@ ol, ul{
 
 .container4 {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 40px;
     justify-content: center;
     align-items: center;
@@ -262,6 +277,7 @@ ol, ul{
 .sticker-card {
   background-color: white;
   height: 100%;
+  width: 100%;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -660,6 +676,12 @@ hr.solid {
   .newsletter p {
     font-size: 20px;
   }
+  .container4 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .container5 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 /* breakpoint for mobile view */
@@ -696,5 +718,28 @@ hr.solid {
   }
 }
 
+.add_info {
+  padding-bottom: 8px;
+}
 
+@media all and (max-width: 1260px) and (min-width: 1200px) {
+  .apparel__image {
+    height: 50%;
+  }
+}
 
+@media all and (max-width: 960px) {
+  .container4 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .container5 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 630px) {
+  .apparel__image {
+    height: 50%;
+    width: 100%;
+  }
+}
