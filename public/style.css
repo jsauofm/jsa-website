@@ -244,6 +244,7 @@ ol, ul{
     justify-content: center;
     align-items: top;
     background-color: white;
+    vertical-align: top;
 }
 
 .container5 {
@@ -746,11 +747,14 @@ hr.solid {
 }
 
 @media all and (max-width: 425px) {
-  #white-hoodie {
+/*  #white-hoodie {
     height: 75%;
   }
   #black-crewneck {
     height: 75%;
+  }*/
+  .apparel__image {
+    height: 38%;
   }
 }
 
