@@ -747,7 +747,10 @@ hr.solid {
 
 @media all and (max-width: 425px) {
   #white-hoodie {
-    height: 85%;
+    height: 75%;
+  }
+  #black-crewneck {
+    height: 75%;
   }
 }
 
