@@ -710,13 +710,16 @@ hr.solid {
     grid-template-columns: 1fr;
   }
   .alumni p, em {
-    font-size: 16px;
+    font-size: 14px;
   }
   .alumni h4 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .alumni h5 {
-    font-size: 22px;
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
   }
 }
 
