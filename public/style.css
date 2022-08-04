@@ -777,3 +777,10 @@ hr.solid {
   padding-top: 45px;
   width: 100%;
 }
+
+.alumni_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
