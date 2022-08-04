@@ -721,6 +721,12 @@ hr.solid {
   p {
     font-size: 16px;
   }
+  .alumni_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .add_info {
