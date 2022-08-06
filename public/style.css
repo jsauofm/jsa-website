@@ -718,6 +718,12 @@ hr.solid {
   .alumni h5 {
     font-size: 18px;
   }
+  .alumni {
+    grid-template-columns: 1fr;
+  }
+  .alumni_img {
+    margin: 0 auto;
+  }
   p {
     font-size: 16px;
   }
