@@ -723,6 +723,7 @@ hr.solid {
   }
   .alumni_img {
     margin: 0 auto;
+    max-width: 250px;
   }
   p {
     font-size: 16px;
