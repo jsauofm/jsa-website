@@ -552,7 +552,7 @@ hr.solid {
   font-size: 20px;
   position: sticky;
   top: 0px;
-  z-index: 2;
+  z-index: 1000; 
 }
 
 .nav-space {
@@ -624,6 +624,7 @@ hr.solid {
     text-align: center;
     padding-top: 5px;
     display: none;
+    min-height: 100vh; /* span height of view */
   }
   .nav-space {
     padding-right: 0px;
