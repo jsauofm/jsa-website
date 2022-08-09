@@ -687,8 +687,18 @@ hr.solid {
   }
 }
 
+.mobile-banner {
+  display: none;
+}
+
 /* breakpoint for mobile view */
 @media all and (max-width: 680px) {
+  .comp-banner {
+    display: none;
+  }
+  .mobile-banner {
+    display: block;
+  }
   .descriptions {
     margin-top: 10px;
     margin-bottom: 10px;
