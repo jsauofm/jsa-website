@@ -809,3 +809,25 @@ hr.solid {
   justify-content: center;
   text-align: center;
 }
+
+.easter-egg {
+  text-decoration: none;
+  color: black;
+}
+
+.easter-egg:hover {
+  color: #104852;
+}
+
+.easter-egg2 {
+  text-decoration: none;
+  color: white;
+}
+
+.easter-egg2:hover {
+  color: #97dce8;
+}
+
+
+
+
