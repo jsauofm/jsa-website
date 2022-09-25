@@ -666,6 +666,21 @@ hr.solid {
   padding-bottom: 20px;
 }
 
+.mentor_box {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  font-size: 18px;
+  margin-inline: 5% 5%;
+}
+
+.mentor_box img {
+  max-width: 250px;
+  border-radius: 100%;
+  border: solid 5px rgb(245, 154, 154);
+  margin-bottom: 20px;
+}
+
 @media all and (max-width: 1200px) and (min-width: 680px) {
   .container {
     grid-template-columns: 1fr 1fr;
