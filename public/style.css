@@ -370,7 +370,6 @@ ol, ul{
 
 .event {
   max-width: 600px;
-  height: -webkit-fill-available;
   border-radius: 2%;
   display: flex;
   flex-direction: column;
