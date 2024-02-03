@@ -1,4 +1,4 @@
-import boardies from '../../Data/Boardies/Boardies';
+import boardies from '../../Data/Boardies/Boardies.json';
 
 load_slideshow();
 load_boardies();
