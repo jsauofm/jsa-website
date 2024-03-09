@@ -48,7 +48,9 @@ function generate_index() {
 
     // generate slideshow
     let slideshow = document.getElementById("slideshow");
-    for (let i=0; i<slideshows.length; i++)
+    if (slideshows.length != 4)
+        alert("Please make sure there are 4 images in slideshow.js");
+    for (let i=0; i<4; i++)
         slideshow.innerHTML += '<img src="' + slideshows[i] + '">';
-
+    slideshow.innerHTML += '<img src="' + slideshows[0] + '">';
 }
