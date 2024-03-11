@@ -1,7 +1,7 @@
 boardie_info = [
     {
         name: "Anna Shinohara",
-        photo: "./Data/photos/anna.jpg", 
+        photo: "../Data/boardies/anna.jpg", 
         position: "President",
         year: "Senior",
         major: "Psychology",
@@ -15,7 +15,7 @@ boardie_info = [
     },
     {
         name: "Yoshiki Kawase",
-        photo: "./Data/photos/yoshi.jpg", 
+        photo: "../Data/boardies/yoshi.jpg", 
         position: "Vice President",
         year: "Senior",
         major: "Biochemistry",
@@ -27,7 +27,7 @@ boardie_info = [
     },
     {
         name: "Mari Park",
-        photo: "./Data/photos/mari.jpg", 
+        photo: "../Data/boardies/mari.jpg", 
         position: "Vice President",
         year: "Sophomore",
         major: "Pharmaceutical Science",
@@ -39,7 +39,7 @@ boardie_info = [
     },
     {
         name: "Lina Hashimoto",
-        photo: "./Data/photos/lina.jpg", 
+        photo: "../Data/boardies/lina.jpg", 
         position: "Graphics, Marketing",
         year: "Sophomore",
         major: "Art and UX",
@@ -51,7 +51,7 @@ boardie_info = [
     },
     {
         name: "Seri Stewart",
-        photo: "./Data/photos/seri.jpg", 
+        photo: "../Data/boardies/seri.jpg", 
         position: "Internal Com",
         year: "Sophomore",
         major: "History of Art",
@@ -63,7 +63,7 @@ boardie_info = [
     },
     {
         name: "Kayenne Ohno",
-        photo: "./Data/photos/kayenne.jpg", 
+        photo: "../Data/boardies/kayenne.jpg", 
         position: "Kazoku",
         year: "Sophomore",
         major: "BHS + Asian Studies",
@@ -75,7 +75,7 @@ boardie_info = [
     },
     {
         name: "Rei Meguro",
-        photo: "./Data/photos/rei.jpg", 
+        photo: "../Data/boardies/rei.jpg", 
         position: "Business",
         year: "Sophomore",
         major: "Computer Science",
@@ -88,7 +88,7 @@ boardie_info = [
     },
     {
         name: "Roshan Sadhu",
-        photo: "./Data/photos/roshan.jpg", 
+        photo: "../Data/boardies/roshan.jpg", 
         position: "External Com",
         year: "Sophomore",
         major: "Computer Science",
@@ -100,7 +100,7 @@ boardie_info = [
     },
     {
         name: "Tasuku Uraguchi",
-        photo: "./Data/photos/tasuku.jpg", 
+        photo: "../Data/boardies/tasuku.jpg", 
         position: "Freshman Rep",
         year: "Freshman",
         major: "Biomedical Engineering",
@@ -112,7 +112,7 @@ boardie_info = [
     },
     {
         name: "Koki Umemura",
-        photo: "./Data/photos/koki.jpg", 
+        photo: "../Data/boardies/koki.jpg", 
         position: "Freshman Rep",
         year: "Freshman",
         major: "Data Science + Linguistics",
