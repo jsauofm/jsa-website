@@ -1,162 +1,137 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>JSA Merch</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/favicon" href="/public/photos/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTNKZYDPBD"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+<head>
+    <title>JSA Merch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/favicon" href="/public/photos/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTNKZYDPBD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-          gtag('config', 'G-BTNKZYDPBD');
-        </script>
-    </head>
-    <body class="d-flex flex-column min-vh-100">
-      <div id="wrapper">
-        <div id="content">
-          <nav class="navbar">
-            <div>
-              <a href="../index.html"><img src="photos/jsa-pink-logo.PNG"/></a>
-            </div>
+        gtag('config', 'G-BTNKZYDPBD');
+    </script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <div id="content">
+        <!--nav bar-->
+        <nav class="navbar">
+            <a href="index.html"><img src="photos/jsa-pink-logo.PNG"/></a>
             <div class="nav-space">
-              <ul class="nav-list" id="navi-list">
-                <li class="list-item"><a href="jsa-events.html">Events</a></li>
-                <li class="list-item"><a href="jsa-newsletter.html">Newsletter</a></li>
-                <li class="list-item"><a href="jsa-kazoku.html">Kazoku</a></li>
-                <li class="list-item"><a href="jsa-business.html">Business</a></li>
-                <li class="list-item"><a href="jsa-merch.html">Merch</a></li>
-              </ul>
-              <div class="menu" id="toggle-button">
-                <div class="menu-line"></div>
-                <div class="menu-line"></div>
-                <div class="menu-line"></div>
-              </div>
+                <ul class="nav-list" id="navi-list">
+                    <li class="list-item"><a href="jsa-events.html">Events</a></li>
+                    <li class="list-item"><a href="jsa-newsletter.html">Newsletter</a></li>
+                    <li class="list-item"><a href="jsa-kazoku.html">Kazoku</a></li>
+                    <li class="list-item"><a href="jsa-business.html">Business</a></li>
+                    <li class="list-item"><a href="jsa-merch.html">Merch</a></li>
+                </ul>
+                <div class="menu" id="toggle-button">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
             </div>
-          </nav> 
-          <!--main content-->
-          <div>
-                <!--welcome message-->
-                <div class="comp-banner">
-                  <img src="photos/merchheadercomp.png" width=100%>
-                </div>
-                <div class="mobile-banner">
-                  <img src="photos/merchheadermobile.png" width=100%>
-                </div>
-                <br>
-                <!--intro statement-->
-              <div id="intro">
-                <br>
-                <h3 style="color: rgb(245, 154, 154);">Merch Page</h3>
-                <p class="descriptions">This page showcases the stickers and apparel that we have for sale. If you are interested in purchasing and live in the Ann Arbor, MI area, please fill out the form below to order! All profit made from selling merchandise goes into events hosted by UMich JSA.</p>
-                <p class="descriptions"><b>NOTE: This page is still in the beta testing phase. Merch Order Form and inventory counts may not be up to date.</b></p>
-                <!--TODO: input link to merch order form-->
-                <a href = "https://forms.gle/XSpc6WTZj6Nbvf2t8" target="_blank" class="button">Merch Order Form</a>
-                <br>
-                <br>
-              </div>
+        </nav> 
+        <!--welcome message-->
+        <div class="comp-banner"><img src="photos/merchheadercomp.png" width=100%></div>
+        <div class="mobile-banner"><img src="photos/merchheadermobile.png" width=100%></div>
+        <br>
+        <!--intro statement-->
+        <div id="intro">
             <br>
-            <h3 style="color:rgb(245, 154, 154)">Stickers</h3>
-            <div class="block2">
-            <div class="container5">
-              <div class="sticker-card">
+            <h3 style="color: rgb(245, 154, 154);">Merch Page</h3>
+            <p class="descriptions">This page showcases the stickers and apparel that we have for sale. If you are interested in purchasing and live in the Ann Arbor, MI area, please fill out the form below to order! All profit made from selling merchandise goes into events hosted by UMich JSA.</p>
+            <p class="descriptions"><b>NOTE: This page is still in the beta testing phase. Merch Order Form and inventory counts may not be up to date.</b></p>
+            <!--TODO: input link to merch order form-->
+            <a href = "https://forms.gle/XSpc6WTZj6Nbvf2t8" target="_blank" class="button">Merch Order Form</a>
+            <br>
+            <br>
+        </div>
+        <br>
+        <h3 style="color:rgb(245, 154, 154)">Stickers</h3>
+        <div class="block2 container5">
+            <div class="sticker-card">
                 <img src="photos/japan-map.png" alt="Sticker" class="sticker__image">
                 <p class="card__name">Japan Map</p>
                 <p class="card__name3"><i>Designed by Karen Nomura</i></p>
                 <p><b>Inventory: </b><i>12 left</i></p>
-              </div>
-              <div class="sticker-card">
+            </div>
+            <div class="sticker-card">
                 <img src="photos/sushi-roll.png" alt="Sticker" class="sticker__image">
                 <p class="card__name">Sushi Roll</p>
                 <p class="card__name3"><i>Designed by Karen Nomura</i></p>
                 <p><b>Inventory: </b><i>16 left</i></p>
-              </div>
-              <div class="sticker-card">
+            </div>
+            <div class="sticker-card">
                 <img src="photos/shiba-inu.png" alt="Sticker" class="sticker__image">
                 <p class="card__name">Shiba Inu</p>
                 <p class="card__name3"><i>Designed by Rachel Liu</i></p>
                 <p><b>Inventory: </b><i>24 left</i></p>
-              </div>
-              <div class="sticker-card">
+            </div>
+            <div class="sticker-card">
                 <img src="photos/wave.png" alt="Sticker" class="sticker__image">
                 <p class="card__name">Wave</p>
                 <p class="card__name3"><i>Designed by Nami Kaneko</i></p>
                 <p><b>Inventory: </b><i>8 left</i></p>
-              </div>
             </div>
-<!--             <div class="container">
-              <div class="sticker-card">
-                <img src="photos/abby.jpg" alt="Sticker" class="sticker__image">
-                <p class="card__name">Dragon</p>
-                <p class="card__name3"><i>Designed by Nami Kaneko</i></p>
-                <p><b>Inventory: </b><i>3 left</i></p>
-              </div>
-            </div> -->
-          </div>
-          <br>
-          <br>
-          <br>
-          <div class="block2">
-          <h3 style="color:rgb(245, 154, 154)">Apparel</h3>
-          <div class="container4">
-              <div class="sticker-card" id="white-hoodie">
+        </div>
+        <br>
+        <br>
+        <br>
+        <h3 style="color:rgb(245, 154, 154)">Apparel</h3>
+        <div class="block2 container4">
+            <div class="sticker-card" id="white-hoodie">
                 <img src="photos/white-hoodie-front.png" onmouseover="this.src='photos/white-hoodie-back.PNG'" onmouseout="this.src='photos/white-hoodie-front.png'" border="0" alt="Apparel" class="apparel__image">
                 <p class="card__name">JSA Hoodie (White)</p>
                 <p class="card__name3"><i>Designed by Sarah Seto, 2022</i></p>
                 <p><b>Small: </b><i>15 left</i><br>
-                   <b>Med: </b><i>45 left</i><br>
-                   <b>Large: </b><i>20 left</i><br>
-                   <b>XL: </b><i>5 left</i>
+                    <b>Med: </b><i>45 left</i><br>
+                    <b>Large: </b><i>20 left</i><br>
+                    <b>XL: </b><i>5 left</i>
                 </p>
-              </div>
-              <div class="sticker-card" id="black-crewneck">
+            </div>
+            <div class="sticker-card" id="black-crewneck">
                 <img src="photos/crewneck-front.png" onmouseover="this.src='photos/crewneck-back.png'" onmouseout="this.src='photos/crewneck-front.png'" border="0" alt="Apparel" class="apparel__image">
                 <p class="card__name">JSA Crewneck (Black)</p>
                 <p class="card__name3"><i>Designed by Nami Kaneko, 2021</i></p>
                 <p><b>Small: </b><i>2 left</i><br>
-                   <b>Med: </b><i>12 left</i><br>
-                   <b>Large: </b><i>0 left</i><br>
-                   <b>XL: </b><i>0 left</i>
+                        <b>Med: </b><i>12 left</i><br>
+                        <b>Large: </b><i>0 left</i><br>
+                        <b>XL: </b><i>0 left</i>
                 </p>
-              </div>
-              <div class="sticker-card" id="black-crewneck">
+            </div>
+            <div class="sticker-card" id="black-crewneck">
                 <img src="photos/sweatshirt-front.png" onmouseover="this.src='photos/sweatshirt-back.png'" onmouseout="this.src='photos/sweatshirt-front.png'" border="0" alt="Apparel" class="apparel__image">
                 <p class="card__name">JSA Sweatshirt</p>
                 <p class="card__name3"><i>Designed by Nami Kaneko, 2020</i></p>
                 <p><b>Small: </b><i>4 left</i><br>
-                   <b>Med: </b><i>0 left</i><br>
-                   <b>Large: </b><i>0 left</i><br>
-                   <b>XL: </b><i>0 left</i>
+                        <b>Med: </b><i>0 left</i><br>
+                        <b>Large: </b><i>0 left</i><br>
+                        <b>XL: </b><i>0 left</i>
                 </p>
-              </div>
-              </div>
             </div>
-            </div>
-          </div>
-          </div>
         </div>
-        <br>
-        <br>
-        <div>
-          <p class="descriptions">Inventory count last updated on Aug 25, 2022.</p>
-        </div>
-        <!-- Footer -->
-        <footer class="footer">
-          <p>Contact: <a target="_blank" href="mailto:jsa-board@umich.edu" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-envelope"></a> <a target="_blank" href="https://www.facebook.com/jsaumich" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-facebook"></a> <a target="_blank" href="https://www.instagram.com/jsauofm/?hl=en" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-instagram"></a></p>
-          <p> 2022 <span>&#183;</span> Japan Student Association @ University <a class= "easter-egg2" target="_blank" href="https://www.colorli.com">of</a> Michigan <span>&#183;</span> Ann Arbor, MI</p>
-        </footer>
-    </body>
-    <script>
-      const toggleButton= document.getElementById('toggle-button')
-      const naviList= document.getElementById('navi-list')
-      toggleButton.addEventListener('click', () => {
+    </div>
+    <br>
+    <br>
+    <p class="descriptions">Inventory count last updated on Aug 25, 2022.</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Contact: <a target="_blank" href="mailto:jsa-board@umich.edu" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-envelope"></a> <a target="_blank" href="https://www.facebook.com/jsaumich" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-facebook"></a> <a target="_blank" href="https://www.instagram.com/jsauofm/?hl=en" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-instagram"></a></p>
+        <p>Japan Student Association @ University of Michigan - Ann Arbor, MI</p>
+    </footer>
+</body>
+<script>
+    const toggleButton= document.getElementById('toggle-button')
+    const naviList= document.getElementById('navi-list')
+    toggleButton.addEventListener('click', () => {
         naviList.classList.toggle('active');
-      })
-    </script>
+    })
+</script>
 </html>
