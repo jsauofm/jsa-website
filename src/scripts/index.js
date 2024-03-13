@@ -54,3 +54,33 @@ function generate_index() {
         slideshow.innerHTML += '<img src="' + slideshows[i] + '">';
     slideshow.innerHTML += '<img src="' + slideshows[0] + '">';
 }
+
+
+
+function generate_newsletters() {
+    // embed latest
+    let latest = newsletters[0];
+    let link = latest["link"];
+    let newsletter_element = document.getElementById("newsletter-latest");
+    newsletter_element.children[0].innerHTML = latest["time"].toUpperCase();
+    newsletter_element.children[1].children[0].src = link.slice(0,link.search("/view?")) + "/view?embed";
+
+    // put rest in archive
+    let newsletter_archive = document.getElementById("newsletter-archive");
+    for (let i=1; i<newsletters.length; i++) {
+        let time = newsletters[i]["time"].toUpperCase();
+
+        let archive_element = document.createElement("a");
+        archive_element.className = "newsletter";
+        archive_element.style = "background-image: url(photos/newsletter_" + time.slice(0,3) + ".png); opacity: 100%;"
+        archive_element.href = newsletters[i]["link"];
+
+        let archive_time = document.createElement("h1");
+        archive_time.className = "title";
+        archive_time.style = "color: white;"
+        archive_time.innerHTML = time;
+
+        archive_element.appendChild(archive_time);
+        newsletter_archive.appendChild(archive_element);
+    }
+}
