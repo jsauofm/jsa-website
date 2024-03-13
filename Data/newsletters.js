@@ -1,8 +1,11 @@
-// {time: "MON YEAR", link: "SHARED_NEWSLETTER_LINK"},
-// copy above, paste at the top of the list, and modify accordingly
-// NOTE: Please stick to the time convention of 3 letters month + 4 digit years
+// To add a new newsletter, copy and paste the below at the top of the list:
+/*
+    {time: "MON YEAR", link: "SHARED_NEWSLETTER_LINK"},
+*/
+// NOTE: Please stick to the time convention of 3-letters month and 4-digit years
 
 newsletters = [
+    // new newsletters go right below here
     {time: "FEB 2024", link: "https://www.canva.com/design/DAF8oY_b_ek/YHVBSR3C0gp1TWEjGtwwVw/view?utm_content=DAF8oY_b_ek&utm_campaign=designshare&utm_medium=link&utm_source=editor"},
     {time: "JAN 2024", link: "https://www.canva.com/design/DAF7NoabqUc/e9lJvb6jCoOmUY-X7gwKyA/view?utm_content=DAF7NoabqUc&utm_campaign=designshare&utm_medium=link&utm_source=editor"},
     {time: "DEC 2023", link: "https://www.canva.com/design/DAF1ZM7iGi4/t0WjFAvxlfNPg1ggQGLBjA/view?utm_content=DAF1ZM7iGi4&utm_campaign=designshare&utm_medium=link&utm_source=editor"},

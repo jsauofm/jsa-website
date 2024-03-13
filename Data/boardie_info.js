@@ -1,22 +1,23 @@
+// To add a new boardie, copy and paste the following into the boardie_info list:
 /*
-{
-    name: "NAME",
-    photo: "../Data/boardies/PHOTO_FILENAME",
-    position: "BOARDIE_POSITION",
-    year: "SCHOOL_YEAR",
-    major: "MAJOR",
-    interests: "list of interests"m
-    contacts: {
-        email: "mailto:EMAIL@umich.edu",
-        instagram: "INSTA_LINK",
-        facebook: "FB_LINK",
-        linkedin: "LINKEDIN_LINK"
-    }
-},
+    {
+        name: "NAME",
+        photo: "../Data/boardies/PHOTO_FILENAME",
+        position: "BOARDIE_POSITION",
+        year: "SCHOOL_YEAR",
+        major: "MAJOR",
+        interests: "list of interests"m
+        contacts: {
+            email: "mailto:EMAIL@umich.edu",
+            instagram: "INSTA_LINK",
+            facebook: "FB_LINK",
+            linkedin: "LINKEDIN_LINK"
+        }
+    },
 */
-// copy above to add/modify a boardie information
-// make sure to include the photo of the boardie in Data/boardies
-// NOTE: contacts are optional. Ideally include an email. Other social media will not work
+// NOTE: Make sure to upload the photo of the boardie in Data/boardies/
+// NOTE: Please delete old, unused photos
+// NOTE: Contacts are optional. Ideally include an email. Other social media will not work
 
 boardie_info = [
     {
