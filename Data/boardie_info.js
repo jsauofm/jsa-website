@@ -2,7 +2,7 @@
 /*
     {
         name: "NAME",
-        photo: "../Data/boardies/PHOTO_FILENAME",
+        photo: "boardies/PHOTO_FILENAME",
         position: "BOARDIE_POSITION",
         year: "SCHOOL_YEAR",
         major: "MAJOR",

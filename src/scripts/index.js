@@ -102,3 +102,83 @@ function generate_business_info() {
     "or the facebook page with the link below. Finally, if you have any questions, feel free to reach out to <a href=\"mailto:"
     + business.email + "\">" + business.email + "</a>";
 }
+
+
+function generate_merch() {
+    let merchorder = document.getElementById("merchorder");
+
+    // order form
+    if (merch.available) {
+        merchorder.innerHTML = '<a href = \"' + merch.order_form +
+        '\" target="_blank" class="button">Merch Order Form</a>';
+    } else {
+        merchorder.innerHTML = '<p class="descriptions"><b>Sorry, the merch order form is closed as of now. ' +
+        'We will re-open the form along with new merches in the future!</b></p>';
+    }
+
+    // stickers
+    let stickers = merch.stickers;
+    let merchstickers = document.getElementById("merchstickers");
+    if (stickers.length == 0) {
+        merchstickers.className = "block2";
+        merchstickers.innerHTML = '<p class="descriptions"><b>We currently do not have any stickers ' +
+        'available.</b></p>';
+    } else {
+        for (let i=0; i<stickers.length; i++) {
+            let stickeritem = document.createElement("div");
+            stickeritem.className = "sticker-card";
+
+            let stickerimg = document.createElement("img");
+            stickerimg.className = "sticker__image";
+            stickerimg.src = stickers[i].photo;
+            stickerimg.alt = stickers[i].name;
+            stickeritem.appendChild(stickerimg);
+
+            let stickername = document.createElement("p");
+            stickername.className = "card__name";
+            stickername.innerHTML = stickers[i].name;
+            stickeritem.appendChild(stickername);
+
+            let stickerdesigner = document.createElement("p");
+            stickerdesigner.className = "card__name3";
+            stickerdesigner.innerHTML = "<i>Designed by " + stickers[i].designer + "</i>";
+            stickeritem.appendChild(stickerdesigner);
+
+            merchstickers.appendChild(stickeritem);
+        }
+    }
+
+    // apparels
+    let apparels = merch.apparels;
+    let merchapparels = document.getElementById("merchapparels");
+    if (apparels.length == 0) {
+        merchapparels.className = "block2";
+        merchapparels.innerHTML = '<p class="descriptions"><b>We currently do not have any apparels ' +
+        'available.</b></p>';
+    } else {
+        for (let i=0; i<apparels.length; i++) {
+            let apparelitem = document.createElement("div");
+            apparelitem.className = "sticker-card";
+
+            let apparelimg = document.createElement("img");
+            apparelimg.className = "apparel__image";
+            apparelimg.src = apparels[i].photo_front;
+            apparelimg.alt = apparels[i].name;
+            apparelimg.onmouseover = () => {apparelimg.src=apparels[i].photo_back};
+            apparelimg.onmouseleave = () => {apparelimg.src=apparels[i].photo_front};
+            apparelitem.appendChild(apparelimg);
+
+            let apparelname = document.createElement("p");
+            apparelname.className = "card__name";
+            apparelname.innerHTML = apparels[i].name;
+            apparelitem.appendChild(apparelname);
+
+            let appareldesigner = document.createElement("p");
+            appareldesigner.className = "card__name3";
+            appareldesigner.innerHTML = "<i>Designed by " + apparels[i].designer + "</i>";
+            apparelitem.appendChild(appareldesigner);
+
+            merchapparels.appendChild(apparelitem);
+        }
+    }
+}

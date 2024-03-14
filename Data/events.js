@@ -13,7 +13,7 @@
             {
                 name: "EVENT_NAME",
                 description: "SHORT_DESCRIPTION",
-                thumbnail: "../Data/events/THUMBAIL_IMAGE",
+                thumbnail: "../Data/events/THUMBAIL_IMAGE_FILENAME",
                 photo_folder: "PUBLIC_LINK_TO_IMAGE_DRIVE_FOLDER",
             },
 */
