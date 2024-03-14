@@ -1,345 +1,63 @@
 <html>
-    <head>
-    	<title>JSA Connections</title>
-        <!--add css file-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/favicon" href="/public/photos/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTNKZYDPBD"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+<head>
+    <title>JSA Business</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../Data/business.js"></script>
+    <script src="./scripts/index.js"></script>
+</head>
 
-          gtag('config', 'G-BTNKZYDPBD');
-        </script>
-    </head>
-    <body class="d-flex flex-column min-vh-100">
-        <div id="wrapper">
-          <div id="content">
-            <nav class="navbar">
-            <div>
-              <a href="index.html"><img src="photos/jsa-pink-logo.PNG"/></a>
-            </div>
-            <div class="nav-space">
-              <ul class="nav-list" id="navi-list">
-                <li class="list-item"><a href="jsa-events.html">Events</a></li>
-                <li class="list-item"><a href="jsa-newsletter.html">Newsletter</a></li>
-                <li class="list-item"><a href="jsa-kazoku.html">Kazoku</a></li>
-                <li class="list-item"><a href="jsa-business.html">Business</a></li>
-                <li class="list-item"><a href="jsa-merch.html">Merch</a></li>
-              </ul>
-              <div class="menu" id="toggle-button">
+<body onload="init_mobile_nav(); generate_business_info();">
+    <!--navi-->
+    <nav class="navbar">
+        <a href="index.html"><img src="photos/jsa-pink-logo.PNG"/></a>
+        <div class="nav-space">
+            <ul class="nav-list" id="navi-list">
+            <li class="list-item"><a href="jsa-events.html">Events</a></li>
+            <li class="list-item"><a href="jsa-newsletter.html">Newsletter</a></li>
+            <li class="list-item"><a href="jsa-kazoku.html">Kazoku</a></li>
+            <li class="list-item"><a href="jsa-business.html">Business</a></li>
+            <li class="list-item"><a href="jsa-merch.html">Merch</a></li>
+            </ul>
+            <div class="menu" id="toggle-button">
                 <div class="menu-line"></div>
                 <div class="menu-line"></div>
                 <div class="menu-line"></div>
-              </div>
             </div>
-          </nav> 
-            <!--main content-->
-            <div>
-                  <!--Business header png-->
-                  <div class="comp-banner">
-                    <img src="photos/businessheadercomp.png" width=100%>
-                  </div>
-                  <div class="mobile-banner">
-                    <img src="photos/businessheadermobile.png" width=100%>
-                  </div>
-                  <div id="intro">
-                    <br>
-                    <h1 style="color: rgb(245, 154, 154);">Interested in Business Opportunities in Japan?</h1>
-                    <br>
-                  <div>
-                  <!--Row of Company Images-->
-                  <meta name="viewport" content="width=device-width, initial-scale=1">
-                  <style>
-                  * {
-                    box-sizing: border-box;
-                  }
-                  
-                  .row {
-                    display: flex;
-                  }
-                  
-                  /* Create three equal columns that sits next to each other */
-                  .column {
-                    flex: 12.5%;
-                    padding: 0px;
-                  }
-                  </style>
-                  </head>
-                  <body>
-                  
-                  <h3>Here are some of the companies we're in contact with!</h3>
-                  <br>
-                  <div class="row">
-                    <div class="column">
-
-                    </div>
-                    <div class="column">
-                      <img src="photos/Mitsui.png" alt="Mitsui" class="center2">
-                      
-                    </div>
-                    <div class="column">
-                      <img src="photos/Mitsubishi4.png" alt="Mitsubishi" class="center">
-                    </div>
-                    <div class="column">
-                      <img src="photos/PwC3.jpeg" alt="PwC" class="center">
-                    </div>
-                    <div class="column">
-                      <img src="photos/Deloitte3.png" alt="Deloitte" class="center">
-                    </div>
-                    <div class="column">
-                      <img src="photos/Bloomberg2.png" alt="Bloomberg" class="center2">
-                    </div>
-                    <div class="column">
-                      <img src="photos/accenture.png" alt="accenture" class="center">
-                    </div>
-                    <div class="column">
-
-                    </div>
-                  </div>
-                  <!--old example for image was  <img src="photos/Mitsubishi4.png" alt="Mitsubishi" style="width:100%">-->
-                  <!--intro statement-->
-                  <div id="subintro">
-                    <p class="descriptions">Our Business Chair Emma has put together resources to help students interested in 
-                   a career and internship opportunities in Japan. She manages an email list and a Facebook page to give updates 
-                  for the recruiting process and company updates. If you're interested, sign up for the email list with the form at
-                   the bottom of the page and the Facebook page with the button below. Finally, if you have any questions, 
-                   feel free to reach out to Emma at <a href = "mailto:mesaito@umich.edu">mesaito@umich.edu</a>.</p>
-                </div>
-                </div>
-                <div>
-                    <!--Facebook/newsletter sign up??? might need to change-->
-                    <p class="descriptions">Follow our facebook page to stay up to date! </p>
-                    <a href = https://www.facebook.com/groups/1548279945495182 target="_blank" class="button">View Business Page</a>
-                    <br>
-                    <br>
-                </div>                  
-            </div>
-            </div>
-            </div>
-          </div>
-
-          <div id="intro">
-            <br>
-            <h3 style="color: rgb(245, 154, 154);">MEET OUR MENTORS</h3>
-            <br>
-            <p class="descriptions">We are rolling out our JSA mentorship program! If you are looking for advice or someone to talk to about different opportunities at the university, we have mentors willing to talk to you about a wide range of topics from majors/minors, extracurriculars, and many more. Meet our mentors below!</p>
-            <br>
         </div>
-          <div class="test">
-            <div class="testi">
-              <img src="photos/msseira.jpg"> 
-            </div>
-            <div class="testp">
-              <p>Seira Kojima</p>
-              <p>Year: Junior</p>
-              <p>Major: Aerospace Engineering</p>
-              <br>
-              <p>Seira is involved in MFly, Sigma Gamma Tau (SGT), and Women in Aeronautics & Astronautics (WAA).</p>
-            </div>
-          </div>
-          <div class="test">
-            <div class="testi">
-              <img src="photos/msalex.jpg"> 
-            </div>
-            <div class="testp">
-              <p>Alex Zhu</p>
-              <p>Year: Junior</p>
-              <p>Major: Computer Science</p>
-              <br>
-              <p>Alex is involved in the software engineering industry.</p>
-            </div>
-          </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/mskeith.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Keith Ng</p>
-            <p>Year: PhD Student</p>
-            <p>Major: Robotics</p>
-            <br>
-            <p>Keith is involved in research with Boeing and John Deere and internships at Northrop Grumman.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/msjulia.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Julia Tsutsui</p>
-            <p>Year: Junior</p>
-            <p>Major: Neuroscience</p>
-            <br>
-            <p>Julia is involved in resarch and the Pre-Physician Assistant (Pre-PA) club.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/mshao.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Hao M. Wang</p>
-            <p>Year: PhD Student</p>
-            <p>Major: Mechanical Engineering</p>
-            <br>
-            <p>Hao is a GSI and is involved in research and an internship.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/alumni_rex.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Rex Fung</p>
-            <p>Year: PhD Student</p>
-            <p>Major: Biomedical Engineering</p>
-            <br>
-            <p>Rex is involved in research in functional magnetic resonance imaging and is an avid volleyball and badminton player.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/msedward.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Edward Shim</p>
-            <p>Year: Master's Student</p>
-            <p>Major: Electrical Engineering</p>
-            <br>
-            <p>Edward works at Mamma Satto and UGLI cafe, is involved with biomedical research, and has a summer internship at TI.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/msmateo.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Mateo Amprimo</p>
-            <p>Year: Senior</p>
-            <p>Major: Aerospace Engineering</p>
-            <br>
-            <p>Mateo is involved in Michigan Vertical Flight Technology, GE Aviation, and the Multidisciplinary Design Program.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/msandrew.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Andrew Urabe</p>
-            <p>Year: Master's Student</p>
-            <p>Major: Management</p>
-            <br>
-            <p>Andrew is involved in rec sports, Yaffe Digital Media Initiative, Maketing-ish Digital Magazine, and UM Powerlifting.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/nami.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Nami Kaneko</p>
-            <p>Year: Senior</p>
-            <p>Major: BCN/Evol. Anthropology</p>
-            <br>
-            <p>Nami works at Totoro and UMMA and is involved in ASAM HSC, research, and field research.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/carter.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Carter Gwon</p>
-            <p>Year: Senior</p>
-            <p>Major: Business/Computer Science</p>
-            <br>
-            <p>Carter is involved in Impact Investing Group and is a BA 100 Peer Mentor.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/yoshi.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Yoshi Kawase</p>
-            <p>Year: Junior</p>
-            <p>Major: Biochemistry</p>
-            <br>
-            <p>Yoshi is involved in MedLaunch, Honors, and research.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/tiger.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Tiger Hashikura</p>
-            <p>Year: Senior</p>
-            <p>Major: Mech-E/Music</p>
-            <br>
-            <p>Tiger is involved in G-Men, Engineering Honors, and MDP.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/emma.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Emma Saito</p>
-            <p>Year: Senior</p>
-            <p>Major: Psych/Translation Studies</p>
-            <br>
-            <p>Emma is involved in research (CHEPS, Public Health) and volunteering.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/msvalentina.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Valentina Vargas</p>
-            <p>Year: Senior</p>
-            <p>Major: BHS</p>
-            <br>
-            <p>Valentina is involved in ASP as a coach through the OAMI office and research, and spends lots of time in the NCRB.</p>
-          </div>
-        </div>
-        <div class="test">
-          <div class="testi">
-            <img src="photos/msabby.jpg"> 
-          </div>
-          <div class="testp">
-            <p>Abby Sypniewski</p>
-            <p>Year: Senior</p>
-            <p>Major: Information (UX)/Digital Studies</p>
-            <br>
-            <p>Abby is involved in KASA, Tech 4 Social Good, and research.</p>
-          </div>
-        </div>
-        <p>
-          <p class="descriptions">Sign up to be mentored below!</p>
-          <p><a href = https://forms.gle/hzikmX6Y7MFooSNo9 target="_blank" class="button">Mentee Interest Form</a></p>
-          <br>
-
-        </p>
-          <!-- Footer -->
-        <footer class="footer">
-          <p>Contact: <a target="_blank" href="mailto:jsa-board@umich.edu" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-envelope"></a> <a target="_blank" href="https://www.facebook.com/jsaumich" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-facebook"></a> <a target="_blank" href="https://www.instagram.com/jsauofm/?hl=en" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-instagram"></a></p>
-          <p> 2022 <span>&#183;</span> Japan Student Association @ University <a class= "easter-egg2" target="_blank" href="https://www.colorli.com">of</a> Michigan <span>&#183;</span> Ann Arbor, MI</p>
-        </footer>
-      </body>
-      <script>
-      const toggleButton= document.getElementById('toggle-button')
-      const naviList= document.getElementById('navi-list')
-      toggleButton.addEventListener('click', () => {
-        naviList.classList.toggle('active');
-      })
-    </script>
+    </nav> 
+    <!--banner-->
+    <img class="comp-banner" src="photos/businessheadercomp.png" width=100%>
+    <img class="mobile-banner" src="photos/businessheadermobile.png" width=100%>
+    <br><br>
+    <!--connected companies-->
+    <h1 style="color: rgb(245, 154, 154);">Interested in Business Opportunities in Japan?</h1>
+    <br>
+    <h3>Here are some of the companies we're in contact with!</h3>
+    <br>
+    <div class="companies">
+        <img src="photos/Mitsui.png" alt="Mitsui" class="center2">
+        <img src="photos/Mitsubishi4.png" alt="Mitsubishi" class="center">
+        <img src="photos/PwC3.jpeg" alt="PwC" class="center">
+        <img src="photos/Deloitte3.png" alt="Deloitte" class="center">
+        <img src="photos/Bloomberg2.png" alt="Bloomberg" class="center2">
+        <img src="photos/accenture.png" alt="accenture" class="center">
+    </div>
+    <!--description-->
+    <p class="descriptions" id="business-info"></p>
+    <!--Facebook-->
+    <p class="descriptions">Follow our facebook page and sign up to be a part of our business mailing list to stay up to date!</p>
+    <div style="display: flex; justify-content: center; gap: 20px;">
+        <a href="https://www.facebook.com/groups/1548279945495182" target="_blank" class="button">Visit Facebook Page</a>
+        <a href="https://forms.gle/sb4X6rJmVV3KX151A" target="_blank" class="button">Enter Mailing List</a>
+    </div>
+    <br><br>
+    <!--footer-->
+    <footer class="footer">
+        <p>Contact: <a target="_blank" href="mailto:jsa-board@umich.edu" class="fa fa-envelope"></a> <a target="_blank" href="https://www.facebook.com/jsaumich" class="fa fa-facebook"></a> <a target="_blank" href="https://www.instagram.com/jsauofm/?hl=en" class="fa fa-instagram"></a></p>
+        <p>Japan Student Association @ University of Michigan - Ann Arbor, MI</p>
+    </footer>
+</body>
 </html>
