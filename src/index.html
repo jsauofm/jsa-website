@@ -11,22 +11,26 @@
     <script src="./scripts/index.js"></script>
 </head>
 
-<body onload="generate_index();">
-    <header id="top-header">
-        <br>
-        <!--navi-->
-        <a href="index.html" id="logo"><img src="photos/jsa-pink-logo.PNG"/></a>  
-        <nav id="menu">
-            <ul>
-                <li><a href="jsa-events.html">Events</a></li>
-                <li><a href="jsa-newsletter.html">Newsletter</a></li>
-                <li><a href="jsa-kazoku.html">Kazoku</a></li>
-                <li><a href="jsa-business.html">Business</a></li>
-                <li><a href="jsa-merch.html">Merch</a></li>
+<body onload="init_mobile_nav(); generate_index();">
+    <!--navi-->
+    <nav class="navbar">
+        <a href="index.html"><img src="photos/jsa-pink-logo.PNG"/></a>
+        <div class="nav-space">
+            <ul class="nav-list" id="navi-list">
+            <li class="list-item"><a href="jsa-events.html">Events</a></li>
+            <li class="list-item"><a href="jsa-newsletter.html">Newsletter</a></li>
+            <li class="list-item"><a href="jsa-kazoku.html">Kazoku</a></li>
+            <li class="list-item"><a href="jsa-business.html">Business</a></li>
+            <li class="list-item"><a href="jsa-merch.html">Merch</a></li>
             </ul>
-        </nav>
-    </header>
-    <!--welcome message-->
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </div>
+    </nav> 
+    <!--banner-->
     <img src="photos/homewebsite headers.png" width=100%>
     <br>
     <!--intro-->
