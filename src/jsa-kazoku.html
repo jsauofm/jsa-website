@@ -1,137 +1,117 @@
 <html>
-    <head>
-        <title>JSA Kazoku</title>
-        <!--add css file-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/favicon" href="/public/photos/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTNKZYDPBD"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+<head>
+    <title>JSA Kazoku</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./scripts/index.js"></script>
+</head>
 
-          gtag('config', 'G-BTNKZYDPBD');
-        </script>
-    </head>
-    <body>
-        <nav class="navbar">
-            <div>
-              <a href="index.html"><img src="photos/jsa-pink-logo.PNG"/></a>
-            </div>
-            <div class="nav-space">
-              <ul class="nav-list" id="navi-list">
+<body onload="init_mobile_nav();">
+    <!--nav bar-->
+    <nav class="navbar">
+        <a href="index.html"><img src="photos/jsa-pink-logo.PNG"/></a>
+        <div class="nav-space">
+            <ul class="nav-list" id="navi-list">
                 <li class="list-item"><a href="jsa-events.html">Events</a></li>
                 <li class="list-item"><a href="jsa-newsletter.html">Newsletter</a></li>
                 <li class="list-item"><a href="jsa-kazoku.html">Kazoku</a></li>
                 <li class="list-item"><a href="jsa-business.html">Business</a></li>
                 <li class="list-item"><a href="jsa-merch.html">Merch</a></li>
-              </ul>
-              <div class="menu" id="toggle-button">
+            </ul>
+            <div class="menu" id="toggle-button">
                 <div class="menu-line"></div>
                 <div class="menu-line"></div>
                 <div class="menu-line"></div>
-              </div>
-            </div>
-          </nav> 
-        <!--banner-->
-        <div class="comp-banner">
-          <img src="photos/kazokuheadercomp.png" width=100%>
-      </div>
-      <div class="mobile-banner">
-          <img src="photos/kazokuheadermobile.png" width=100%>
-      </div>
-        <br>
-        <p style="margin-inline: 100px">Kazoku (meaning "family" in Japanese) is a program we started in 2019 to help JSA members get closer to each other! It's hard for each and every member of JSA to attend every event, so we split our members into smaller Kazokus with a big/little system, hoping members can build stronger relationships. Our current program has approximately 150 members with an average family size of 12 members. These Kazokus do everything from karaoke to making snowmen in the Arb! If you are interested in joining, please fill out the form below!</p>
-        <br>
-        <!-- TODO: need to input kazoku signup form -->
-        <a target="_blank" class="button">Click Here to Join Kazoku!</a> 
-        <br>
-        <br>
-        <br>
-        <!-- TODO: build out a better "meet the bigs" opportunity -->
-        <!--Kazoku Newsletter -->
-        <div>
-            <h2 style="color:rgb(245, 154, 154);">Kazoku Newsletter</h2>
-            <br>
-            <p style="margin-inline: 100px">Every month, our Kazoku chairs (Yuna Takahashi and Trevor Mitchell) create a Kazoku newsletter to update members on what different families have been doing. In there, they also update which Kazoku is in the lead for the competition. Check out our latest edition below!</p>
-            <br>
-            <embed src="feb22_kazokunewsletter.pdf" width="90%" height="100%" type="application/pdf">
-            <br>
-            <br>
-        </div>
-        <!--Kazoku Hall of Fame-->
-        <div class="halloffame">
-            <h2 style="color:rgb(245, 154, 154);">Kazoku Hall of Fame</h2>
-            <br>
-            <p>Check out the past winners of our annual Kazoku competition!</p>
-            <br>
-            <!-- FUTURE: once another year of kazoku, create a selection bar where can select the school year (all the other years are hidden) -->
-            <h3 style="color:rgb(245, 154, 154);">2021-2022</h3>
-            <br>
-            <div class="container3">
-                <!-- TODO: change the color and spacing of these -->
-                <h1 class="title">1st Place</h1>
-                <h1 class="title">2nd Place</h1>
-                <h1 class="title">3rd Place</h1>
-            </div>
-            <div class="container2">
-                <div class="event" style="background-image: url(photos/origami-night.png);">
-                    <div class="info">
-                        <h1 class="title">Tina's Kazoku</h1>
-                        <!-- TODO: figure out the spacing -->
-                        <p class='kazokuDescription'>Big: Tina </p>
-                        <p class='kazokuDescription'>Medium: ?</p>
-                        <p class='kazokuDescription'>Members: a, b, c, d, e, f</p>
-                        <p class='kazokuDescription'>Total Points: 219</p>
-                        <br><br><br><br><br><br><br><br><br><br>
-                    </div>
-                </div>
-                <div class="event" style="background-image: url(photos/game-night.jpg);">
-                    <div class="info">
-                        <h1 class="title">KanekoBUS</h1>
-                        <p class='kazokuDescription'><b>Big:</b> Fumi </p>
-                        <p class='kazokuDescription'><b>Medium:</b> Nami</p>
-                        <p class='kazokuDescription'><b>Members:</b> a, b, c, d, e, f</p>
-                        <p class='kazokuDescription'>Total Points: 189</p>
-                        <br><br><br><br><br><br><br><br><br><br>
-                    </div>
-                </div>
-                <div class="event"  style="background-image: url(photos/w-mass-mtg.jpg);">
-                    <div class="info">
-                        <h1 class="title">Susuwatari Savages</h1>
-                        <p class='kazokuDescription'><b>Big:</b> Carter G </p>
-                        <p class='kazokuDescription'><b>Medium:</b> Momoka S</p>
-                        <p class='kazokuDescription'><b>Members:</b> Helen S, Hannah N, Ethan D, Trevor M, Violet A, Suchi ?, Jen ?</p>
-                        <p class='kazokuDescription'>Total Points: 93</p>
-                        <br><br><br><br><br><br><br><br><br><br>                   
-                    </div>
-                    </div>
             </div>
         </div>
-        <p>Check out how we did our scoring this year!</p>
-            <a href="https://docs.google.com/document/d/1T-k_ICH4HiSmdHIYUnQs5iPQKUTNZ62A-yGsF6KEsdA/edit?usp=sharing" target="_blank" class="button">Scoring Outline</a>
+    </nav> 
+    <!--welcome message-->
+    <div class="comp-banner"><img src="photos/kazokuheadercomp.png" width=100%></div>
+    <div class="mobile-banner"><img src="photos/kazokuheadermobile.png" width=100%></div>
+    <br>
+    <!--intro-->>
+    <p style="margin-inline: 100px">Kazoku (meaning "family" in Japanese) is a program we started in 2019 to help JSA members get closer to each other! It's hard for each and every member of JSA to attend every event, so we split our members into smaller Kazokus with a big/little system, hoping members can build stronger relationships. Our current program has approximately 150 members with an average family size of 12 members. These Kazokus do everything from karaoke to making snowmen in the Arb! If you are interested in joining, please fill out the form below!</p>
+    <br>
+    <!-- TODO: need to input kazoku signup form -->
+    <a target="_blank" class="button">Click Here to Join Kazoku!</a> 
+    <br>
+    <br>
+    <br>
+    <!-- TODO: build out a better "meet the bigs" opportunity -->
+    <!--Kazoku Newsletter -->
+    <div>
+        <h2 style="color:rgb(245, 154, 154);">Kazoku Newsletter</h2>
+        <br>
+        <p style="margin-inline: 100px">Every month, our Kazoku chairs (Yuna Takahashi and Trevor Mitchell) create a Kazoku newsletter to update members on what different families have been doing. In there, they also update which Kazoku is in the lead for the competition. Check out our latest edition below!</p>
+        <br>
+        <embed src="feb22_kazokunewsletter.pdf" width="90%" height="100%" type="application/pdf">
         <br>
         <br>
-        <p>If you're curious, feel free to also check out some of our pictures from this year!</p>
-            <a href="https://drive.google.com/drive/folders/1pQoCg81lBVn7tyJlQ-a2vBQ_lLt6HIxc?usp=sharing" target="_blank" class="button">Kazoku Pictures</a>
+    </div>
+    <!--Kazoku Hall of Fame-->
+    <div class="halloffame">
+        <h2 style="color:rgb(245, 154, 154);">Kazoku Hall of Fame</h2>
         <br>
+        <p>Check out the past winners of our annual Kazoku competition!</p>
         <br>
+        <!-- FUTURE: once another year of kazoku, create a selection bar where can select the school year (all the other years are hidden) -->
+        <h3 style="color:rgb(245, 154, 154);">2021-2022</h3>
         <br>
-        <!-- Footer -->
-        <footer class="footer">
-          <p>Contact: <a target="_blank" href="mailto:jsa-board@umich.edu" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-envelope"></a> <a target="_blank" href="https://www.facebook.com/jsaumich" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-facebook"></a> <a target="_blank" href="https://www.instagram.com/jsauofm/?hl=en" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-instagram"></a></p>
-          <p>Japan Student Association @ University of Michigan - Ann Arbor, MI</p>
-        </footer>
-    </body>
-    <script>
-      const toggleButton= document.getElementById('toggle-button')
-      const naviList= document.getElementById('navi-list')
-      toggleButton.addEventListener('click', () => {
-        naviList.classList.toggle('active');
-      })
-    </script>
+        <div class="container3">
+            <!-- TODO: change the color and spacing of these -->
+            <h1 class="title">1st Place</h1>
+            <h1 class="title">2nd Place</h1>
+            <h1 class="title">3rd Place</h1>
+        </div>
+        <div class="container2">
+            <div class="event" style="background-image: url(photos/origami-night.png);">
+                <div class="info">
+                    <h1 class="title">Tina's Kazoku</h1>
+                    <!-- TODO: figure out the spacing -->
+                    <p class='kazokuDescription'>Big: Tina </p>
+                    <p class='kazokuDescription'>Medium: ?</p>
+                    <p class='kazokuDescription'>Members: a, b, c, d, e, f</p>
+                    <p class='kazokuDescription'>Total Points: 219</p>
+                    <br><br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+            <div class="event" style="background-image: url(photos/game-night.jpg);">
+                <div class="info">
+                    <h1 class="title">KanekoBUS</h1>
+                    <p class='kazokuDescription'><b>Big:</b> Fumi </p>
+                    <p class='kazokuDescription'><b>Medium:</b> Nami</p>
+                    <p class='kazokuDescription'><b>Members:</b> a, b, c, d, e, f</p>
+                    <p class='kazokuDescription'>Total Points: 189</p>
+                    <br><br><br><br><br><br><br><br><br><br>
+                </div>
+            </div>
+            <div class="event"  style="background-image: url(photos/w-mass-mtg.jpg);">
+                <div class="info">
+                    <h1 class="title">Susuwatari Savages</h1>
+                    <p class='kazokuDescription'><b>Big:</b> Carter G </p>
+                    <p class='kazokuDescription'><b>Medium:</b> Momoka S</p>
+                    <p class='kazokuDescription'><b>Members:</b> Helen S, Hannah N, Ethan D, Trevor M, Violet A, Suchi ?, Jen ?</p>
+                    <p class='kazokuDescription'>Total Points: 93</p>
+                    <br><br><br><br><br><br><br><br><br><br>                   
+                </div>
+                </div>
+        </div>
+    </div>
+    <p>Check out how we did our scoring this year!</p>
+        <a href="https://docs.google.com/document/d/1T-k_ICH4HiSmdHIYUnQs5iPQKUTNZ62A-yGsF6KEsdA/edit?usp=sharing" target="_blank" class="button">Scoring Outline</a>
+    <br>
+    <br>
+    <p>If you're curious, feel free to also check out some of our pictures from this year!</p>
+        <a href="https://drive.google.com/drive/folders/1pQoCg81lBVn7tyJlQ-a2vBQ_lLt6HIxc?usp=sharing" target="_blank" class="button">Kazoku Pictures</a>
+    <br>
+    <br>
+    <br>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Contact: <a target="_blank" href="mailto:jsa-board@umich.edu" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-envelope"></a> <a target="_blank" href="https://www.facebook.com/jsaumich" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-facebook"></a> <a target="_blank" href="https://www.instagram.com/jsauofm/?hl=en" style="color: white; background-color: transparent; text-decoration: none;" class="fa fa-instagram"></a></p>
+        <p>Japan Student Association @ University of Michigan - Ann Arbor, MI</p>
+    </footer>
+</body>
 </html>
