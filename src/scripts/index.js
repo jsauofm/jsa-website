@@ -80,7 +80,7 @@ function generate_newsletters() {
 
         let archive_element = document.createElement("a");
         archive_element.className = "newsletter";
-        archive_element.style = "background-image: url(photos/newsletter_" + time.slice(0,3) + ".png); opacity: 100%;"
+        archive_element.style = "background-image: url(photos/newsletter-" + time.slice(0,3).toLowerCase() + ".png); opacity: 100%;"
         archive_element.href = newsletters[i].link;
 
         let archive_time = document.createElement("h1");
