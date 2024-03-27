@@ -73,7 +73,7 @@ boardie_info = [
     {
         name: "Seri Stewart",
         photo: "../Data/boardies/seri.jpg", 
-        position: "Internal Com",
+        position: "Internal Chair",
         year: "Sophomore",
         major: "History of Art",
         interests: "AAA",
@@ -104,19 +104,20 @@ boardie_info = [
         contacts: {
             email: "mailto:rmeguro@umich.edu",
             instagram: "https://www.instagram.com/reimeguro/",
-            linkedin: "https://www.instagram.com/p/C2tMpBRAgiK/",
+            linkedin: "https://www.linkedin.com/in/rei-meguro/",
         }
     },
     {
         name: "Roshan Sadhu",
         photo: "../Data/boardies/roshan.jpg", 
-        position: "External Com",
+        position: "External Chair",
         year: "Sophomore",
         major: "Computer Science",
-        interests: "AAA",
+        interests: "Pro-Wrestling, Music, Soccer, Hot Sauce, NYT Games",
         contacts: {
             email: "mailto:therks@umich.edu",
             instagram: "https://www.instagram.com/the_real_rks/",
+            linkedin: "https://www.linkedin.com/in/roshan-sadhu-534405245/",
         }
     },
     {
