@@ -17,7 +17,7 @@
 */
 // NOTE: Make sure to upload the photo of the boardie in Data/boardies/
 // NOTE: Please delete old, unused photos
-// NOTE: Contacts are optional. Ideally include an email. Other social media will not work
+// NOTE: Contacts are optional. Ideally include an email. Social media besides the ones above won't work.
 
 boardie_info = [
     {
