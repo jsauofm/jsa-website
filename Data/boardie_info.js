@@ -40,7 +40,7 @@ boardie_info = [
         position: "Vice President",
         year: "Senior",
         major: "Biochemistry",
-        interests: "AAA",
+        interests: "F1, LEGO, YOASOBI, Fish/Aquariums, Switch games, Manzai",
         contacts: {
             email: "mailto:yokawase@umich.edu",
             instagram: "https://www.instagram.com/yoshi.ki_ka/",
@@ -52,7 +52,7 @@ boardie_info = [
         position: "Vice President",
         year: "Sophomore",
         major: "Pharmaceutical Science",
-        interests: "AAA",
+        interests: "Nails, Cats, Practice Problems, Cooking/Baking",
         contacts: {
             email: "mailto:maripark@umich.edu",
             instagram: "https://www.instagram.com/mari.park/",
@@ -64,7 +64,7 @@ boardie_info = [
         position: "Graphics, Marketing",
         year: "Sophomore",
         major: "Art and UX",
-        interests: "AAA",
+        interests: "Cats, Sleep, Graphic Art, Web Design, Travel, FOOD",
         contacts: {
             email: "mailto:linah@umich.edu",
             instagram: "https://www.instagram.com/linahashi/",
@@ -76,7 +76,7 @@ boardie_info = [
         position: "Internal Chair",
         year: "Sophomore",
         major: "History of Art",
-        interests: "AAA",
+        interests: "Art, Baking/Cooking, Finding Good Cafes and Bakeries",
         contacts: {
             email: "mailto:seri@umich.edu",
             instagram: "https://www.instagram.com/seristew/",
@@ -88,7 +88,7 @@ boardie_info = [
         position: "Kazoku",
         year: "Sophomore",
         major: "BHS + Asian Studies",
-        interests: "AAA",
+        interests: "BASKETBALL, Reading (Goodreads), Eating, SUNSETS & SUNRISES",
         contacts: {
             email: "mailto:kayohno@umich.edu",
             instagram: "https://www.instagram.com/kaenoono/",
@@ -126,7 +126,7 @@ boardie_info = [
         position: "Freshman Rep",
         year: "Freshman",
         major: "Biomedical Engineering",
-        interests: "AAA",
+        interests: "Soccer, Food, Skiing, CLimbing, Video Games",
         contacts: {
             email: "mailto:tasukuu@umich.edu",
             instagram: "https://www.instagram.com/tasukura/",
@@ -138,7 +138,7 @@ boardie_info = [
         position: "Freshman Rep",
         year: "Freshman",
         major: "Data Science + Linguistics",
-        interests: "AAA",
+        interests: "Skateboarding, Fishing, Karaoke, K-Drama",
         contacts: {
             email: "mailto:kumemura@umich.edu",
             instagram: "https://www.instagram.com/k.12o1/",
