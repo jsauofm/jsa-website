@@ -310,9 +310,9 @@ ol, ul{
 }
 
 .card__image {
-  height: auto;
-  width: 100%;
-  max-width: 150px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 50%;
   border: 5px solid rgb(245, 154, 154);
 }
