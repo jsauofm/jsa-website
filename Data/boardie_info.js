@@ -63,7 +63,7 @@ boardie_info = [
         position: "Secretary",
         year: "Junior",
         major: "History of Art",
-        interests: "Art, Baking/Cooking, Finding Good Cafes and Bakeries",
+        interests: "Art, Baking/Cooking, Finding Good Cafes, Bakeries",
         contacts: {
             email: "mailto:seri@umich.edu",
             instagram: "https://www.instagram.com/seristew/",
@@ -100,7 +100,7 @@ boardie_info = [
         position: "Finance",
         year: "Sophomore",
         major: "Biomedical Engineering",
-        interests: "Soccer, Food, Skiing, CLimbing, Video Games",
+        interests: "Soccer, Food, Skiing, Climbing, Video Games",
         contacts: {
             email: "mailto:tasukuu@umich.edu",
             instagram: "https://www.instagram.com/tasukura/",
@@ -124,7 +124,7 @@ boardie_info = [
         position: "Kazoku Chair",
         year: "Sophomore",
         major: "Neuroscience",
-        interests: "Baking, card games",
+        interests: "Baking, Skiing, Card Games",
         contacts: {
             email: "mailto:yumena@umich.edu",
             instagram: "https://www.instagram.com/yumenanagai/",
@@ -136,7 +136,7 @@ boardie_info = [
         position: "Intern",
         year: "Sophomore",
         major: "FTVM",
-        interests: "Film, matcha, shopping",
+        interests: "Film, Matcha, Shopping",
         contacts: {
             email: "mailto:jiuwon@umich.edu",
             instagram: "https://www.instagram.com/jiuwon/",
@@ -148,7 +148,7 @@ boardie_info = [
         position: "Intern",
         year: "Junior",
         major: "Computer Science",
-        interests: "Hiking, cooking, board game",
+        interests: "Hiking, Cooking, Board Games",
         contacts: {
             email: "mailto:michshep@umich.edu",
             instagram: "https://www.instagram.com/mich.shep_/",
