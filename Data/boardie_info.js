@@ -21,36 +21,10 @@
 
 boardie_info = [
     {
-        name: "Anna Shinohara",
-        photo: "../Data/boardies/anna.jpg", 
-        position: "President",
-        year: "Senior",
-        major: "Psychology",
-        interests: "Food, music, cooking, baking, manga, j-dramas",
-        contacts: {
-            email: "mailto:ashinoha@umich.edu",
-            facebook: "https://www.facebook.com/ashinohara96/",
-            instagram: "https://www.instagram.com/ashinohara96/",
-            linkedin: "www.linkedin.com/in/anna-shinohara",
-        }
-    },
-    {
-        name: "Yoshiki Kawase",
-        photo: "../Data/boardies/yoshi.jpg", 
-        position: "Vice President",
-        year: "Senior",
-        major: "Biochemistry",
-        interests: "F1, LEGO, YOASOBI, Fish/Aquariums, Switch games, Manzai",
-        contacts: {
-            email: "mailto:yokawase@umich.edu",
-            instagram: "https://www.instagram.com/yoshi.ki_ka/",
-        }
-    },
-    {
         name: "Mari Park",
         photo: "../Data/boardies/mari.jpg", 
-        position: "Vice President",
-        year: "Sophomore",
+        position: "President",
+        year: "Junior",
         major: "Pharmaceutical Science",
         interests: "Nails, Cats, Practice Problems, Cooking/Baking",
         contacts: {
@@ -61,20 +35,33 @@ boardie_info = [
     {
         name: "Lina Hashimoto",
         photo: "../Data/boardies/lina.jpg", 
-        position: "Graphics, Marketing",
-        year: "Sophomore",
-        major: "Art and UX",
-        interests: "Cats, Sleep, Graphic Art, Web Design, Travel, FOOD",
+        position: "Vice President",
+        year: "Junior",
+        major: "Graphic Design and UX",
+        interests: "Cats, cooking, TRAVEL",
         contacts: {
             email: "mailto:linah@umich.edu",
             instagram: "https://www.instagram.com/linahashi/",
         }
     },
     {
+        name: "Rei Meguro",
+        photo: "../Data/boardies/rei.jpg", 
+        position: "Vice President",
+        year: "Junior",
+        major: "Computer Science",
+        interests: "Coding, Gaming, Anime, Skiing, Dancing",
+        contacts: {
+            email: "mailto:rmeguro@umich.edu",
+            instagram: "https://www.instagram.com/reimeguro/",
+            linkedin: "https://www.linkedin.com/in/rei-meguro/",
+        }
+    },
+    {
         name: "Seri Stewart",
         photo: "../Data/boardies/seri.jpg", 
-        position: "Internal Chair",
-        year: "Sophomore",
+        position: "Secretary",
+        year: "Junior",
         major: "History of Art",
         interests: "Art, Baking/Cooking, Finding Good Cafes and Bakeries",
         contacts: {
@@ -85,8 +72,8 @@ boardie_info = [
     {
         name: "Kayenne Ohno",
         photo: "../Data/boardies/kayenne.jpg", 
-        position: "Kazoku",
-        year: "Sophomore",
+        position: "Internal Chair",
+        year: "Junior",
         major: "BHS + Asian Studies",
         interests: "BASKETBALL, Reading (Goodreads), Eating, SUNSETS & SUNRISES",
         contacts: {
@@ -95,23 +82,10 @@ boardie_info = [
         }
     },
     {
-        name: "Rei Meguro",
-        photo: "../Data/boardies/rei.jpg", 
-        position: "Business",
-        year: "Sophomore",
-        major: "Computer Science",
-        interests: "Coding, Gaming, Anime, Skiing, Dancing",
-        contacts: {
-            email: "mailto:rmeguro@umich.edu",
-            instagram: "https://www.instagram.com/reimeguro/",
-            linkedin: "https://www.linkedin.com/in/rei-meguro/",
-        }
-    },
-    {
         name: "Roshan Sadhu",
         photo: "../Data/boardies/roshan.jpg", 
         position: "External Chair",
-        year: "Sophomore",
+        year: "Junior",
         major: "Computer Science",
         interests: "Pro-Wrestling, Music, Soccer, Hot Sauce, NYT Games",
         contacts: {
@@ -123,8 +97,8 @@ boardie_info = [
     {
         name: "Tasuku Uraguchi",
         photo: "../Data/boardies/tasuku.jpg", 
-        position: "Freshman Rep",
-        year: "Freshman",
+        position: "Finance",
+        year: "Sophomore",
         major: "Biomedical Engineering",
         interests: "Soccer, Food, Skiing, CLimbing, Video Games",
         contacts: {
@@ -135,8 +109,8 @@ boardie_info = [
     {
         name: "Koki Umemura",
         photo: "../Data/boardies/koki.jpg", 
-        position: "Freshman Rep",
-        year: "Freshman",
+        position: "Media & Marketing",
+        year: "Sophomore",
         major: "Data Science + Linguistics",
         interests: "Skateboarding, Fishing, Karaoke, K-Drama",
         contacts: {
@@ -144,5 +118,40 @@ boardie_info = [
             instagram: "https://www.instagram.com/k.12o1/",
         }
     },
-    
+    {
+        name: "Yumena Nagai",
+        photo: "../Data/boardies/yumena.jpg", 
+        position: "Kazoku Chair",
+        year: "Sophomore",
+        major: "Neuroscience",
+        interests: "???",
+        contacts: {
+            email: "mailto:yumena@umich.edu",
+            instagram: "https://www.instagram.com/yumenanagai/",
+        }
+    },
+    {
+        name: "Jiu Won",
+        photo: "../Data/boardies/jiu.jpg", 
+        position: "Intern",
+        year: "Sophomore",
+        major: "FTVM",
+        interests: "???",
+        contacts: {
+            email: "mailto:jiuwon@umich.edu",
+            instagram: "https://www.instagram.com/jiuwon/",
+        }
+    },
+    {
+        name: "Michael Shepard",
+        photo: "../Data/boardies/michael.jpg", 
+        position: "Intern",
+        year: "Junior",
+        major: "Computer Science",
+        interests: "???",
+        contacts: {
+            email: "mailto:michshep@umich.edu",
+            instagram: "https://www.instagram.com/mich.shep_/",
+        }
+    },
 ]
