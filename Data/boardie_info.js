@@ -124,7 +124,7 @@ boardie_info = [
         position: "Kazoku Chair",
         year: "Sophomore",
         major: "Neuroscience",
-        interests: "???",
+        interests: "Baking, card games",
         contacts: {
             email: "mailto:yumena@umich.edu",
             instagram: "https://www.instagram.com/yumenanagai/",
@@ -136,7 +136,7 @@ boardie_info = [
         position: "Intern",
         year: "Sophomore",
         major: "FTVM",
-        interests: "???",
+        interests: "Film, matcha, shopping",
         contacts: {
             email: "mailto:jiuwon@umich.edu",
             instagram: "https://www.instagram.com/jiuwon/",
@@ -148,7 +148,7 @@ boardie_info = [
         position: "Intern",
         year: "Junior",
         major: "Computer Science",
-        interests: "???",
+        interests: "Hiking, cooking, board game",
         contacts: {
             email: "mailto:michshep@umich.edu",
             instagram: "https://www.instagram.com/mich.shep_/",
