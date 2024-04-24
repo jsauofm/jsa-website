@@ -1,39 +1,40 @@
 # University of Michigan - JSA Website
 
-This repository consists of a draft of the 2022 University of Michigan JSA website. Building on the model from last year, we decided to add more information about events, kazokus, and alumni as well as writing a more intuitive interface. This website is currently connected to the custom domain www.umichjsa.org. Feel free to check it out!
+This is the repository for the official JSA @ University of Michigan website. The website is designed to be easy for people with no CS and Git background to edit and modify, putting all the main inforamtion inside a JS file which are dynamically loaded via Javascript. Note that the browser may cache the JS files, resulting in the page not updating immediately. To resolve these issues locally, the person viewing the webpage should hit CTRL + SHIFT + R to refresh and clear the cache. 
 
-# Instructions for Changing Old Domain (hosted on UM domains)
+The website is available at www.jsaumich.org/
 
-1. Follow the steps in https://its.umich.edu/computing/web-mobile/mfile/alternative-access to download Cyberduck.
-2. Once downloaded, navigate backward to /afs/umich.edu/group
-3. Navigate to u -> umjsaofficial -> Public -> html -> index.html
-4. To change redirection of the domain, right click and select "Edit With". Once in chosen text editor, change the URL in line 7. Ctrl+S to update the page.
 
-# Instructions for Publishing to Custom Domain
 
-1. Open Google Firebase. Open the "jsaumich-website" project.
-2. Under "Build", select "Hosting" where you can add a custom domain.
-3. Open Google Domains. Select the desired domain and select the subheader "DNS".
-4. Copy the host value from Firebase. In Google Domains, select "Manage custom records" and paste copied value into the "Data" field.
+# Instructions for Changing Website (For Non-Technical Users)
 
-# Steps to Publish to Custom Domain
+The only folder you should be editing is `Data`. The js file contains all the relevant information that gets loaded into the website. Inside these files, there are instructions on how to edit the files to add/modify information. The in-depth step by step guide is as follows:
 
-1. Follow the steps here: https://firebase.google.com/docs/hosting/quickstart
-2. Make sure that all the useful files exist in the "Public" folder.
-3. Run `firebase deploy` to push the newest version of the website.
+1. Log into GitHub using the `jsauofm` account. Login information can be found in the JSA drive (likely inside resources).
+2. Go to the file inside `Data/` that you want to edit. Hit the pen icon and follow the grayed-out instruction in the JS file to modify it. Make sure that you closely follow the instruction and always make sure every opening brackets, quotation marks, and squiggly brackets are followed by a corresponding closing one. Please also keep indentation in mind for readability.
+3. Once you finish editing, hit `commit changes`, give it an appropriate description inside `commit message` (i.e., fixed typo in Rei's description), and hit `commit changes` again.
+4. If you are adding images and/or other files, go to the correct folder, hit `upload files`, and follow a similar step as above after adding the files.
+5. Give the page a minute or two for it to finish updating. Make sure to hit CTRL + SHIFT + R on the website to check that your updates are reflected.
 
-# Steps for Updating the Page
 
-1. Navigate to where you've stored the local version of this repository.
-2. Run `git pull`
-3. Make changes
-4. Run `git add .`
-5. Run `git commit -m " "` where you can comment on the changes you've made
-6. Run `git push`
-7. Run `firebase deploy` to push the newest version of the website.
 
-# Set up Firebase Hosting
+# Instructions for Changing Website (Detailed Technical Overview)
 
-1. Install Firebase CLI. To host your site with Firebase Hosting, you need the Firebase CLI (a command line tool). Use `npm install -g firebase-tools` (might need to do `sudo npm install -g firebase-tools` if no permission).
-2. If above doesn't work, you may need to down npm. Follow the steps on this site: https://sebhastian.com/npm-install-not-working/, then return to step 1.
-3. Initialize your project. Open a terminal window and navigate to a root directory for your web app. Use `firebase login` to sign into Google. When ready with a change, use `firebase deploy` to deploy web app.
+The website DNS is hosted via Google Domain. Please ask the current domain owner(s) to gain domain access. In general, you should not need to modify the domain besides when you want to renew the website, which will need to happen once a year before May (it is a very simple one-time payment of around $12). **PLEASE MAKE SURE TO RENEW THE DOMAIN** so that our website does not go *poof*.
+
+The website is hosted entirely on GitHub pages for free, with the DNS to redirect any access to www.jsaumich.org/ to the GitHub page. Thus, any commit will usually take a minute before the build and deploy the GitHub pages is completed and the page is updated (also note that your browser will cache some files, so you may need to do CTRL + SHIFT + R on the website to see the changes). 
+
+If you plan on modifying or adding a page, please ensure that the website pulls any changing information dynamically so that they can be easily updated without editing the HTML code. There are many examples of this on the pre-existing pages. Generally, you will need to add a function inside index.js for pulling the data and load that function using the onload() tag inside the html. Don't forget to import the data JS file too. In the future, it may be a good idea to use GitHub actions to load the data from a csv file during the page build step for an even easier editing experience whilst removing the need for the website to dynamically pull the data every time the page is loaded, speeding up page loading. 
+
+Please also ensure that you test the website locally before pushing the changes if you decide to directly modify the HTML, script JS file, or the CSS files. To do so, please follow these steps:
+
+1. Open your terminal where you want to keep a local copy of the repository
+2. Run `git clone https://github.com/jsauofm/jsa-website.git`
+3. If you ran the above already, you can skip to here
+4. Run `git pull`
+5. Make changes and test locally by viewing the html in your browser
+6. Run `git add *`
+7. Run `git commit -m "COMMIT_MESSAGE"`, replacing COMMIT_MESSAGE with a short description of the changes you made
+8. Run `git push` to publish these changes
+
+If you get a merge error, that means someone else likely edited and pushed their changes before you did. I cannot help you with that. Merge errors suck. It is generally a good idea to avoid editing the website simulatenously with someone else (especially the same files), or create branches to work independently to avoid these issues. 
