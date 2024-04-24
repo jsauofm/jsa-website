@@ -182,3 +182,48 @@ function generate_merch() {
         }
     }
 }
+
+
+function generate_events() {
+    let eventfields = document.getElementById("events");
+
+    for (let i=0; i<all_events.length; i++) {
+        // event semester
+        eventfields.innerHTML += "<h2 style=\"color:rgb(245, 154, 154);\">" +
+        all_events[i].semester + "</h2><br>";
+
+        let semester = document.createElement("div");
+        semester.className = "container2";
+
+        for (let ev=0; ev<all_events[i].eventlist.length; ev++) {
+            let eventi = document.createElement("div");
+            eventi.className = "event";
+            eventi.style = "background-image: url(" + all_events[i].eventlist[ev].thumbnail + ");"
+
+            let eventinfo = document.createElement("div");
+            eventinfo.className = "info";
+
+            let eventname = document.createElement("h1");
+            eventname.className = "title";
+            eventname.innerHTML = all_events[i].eventlist[ev].name;
+            eventinfo.appendChild(eventname);
+
+            let eventdesc = document.createElement("p");
+            eventdesc.className = "description";
+            eventdesc.innerHTML = all_events[i].eventlist[ev].description;
+            eventinfo.appendChild(eventdesc);
+
+            let eventlink = document.createElement("a");
+            eventlink.href = all_events[i].eventlist[ev].photo_folder;
+            eventlink.target = "_blank";
+            eventlink.style = "color:rgb(245, 154, 154);";
+            eventlink.innerHTML = "See photos";
+            eventinfo.appendChild(eventlink);
+
+            eventi.appendChild(eventinfo);
+            semester.appendChild(eventi);
+        }
+
+        eventfields.appendChild(semester);
+    }
+}
