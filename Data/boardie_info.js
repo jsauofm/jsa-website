@@ -6,7 +6,7 @@
         position: "BOARDIE_POSITION",
         year: "SCHOOL_YEAR",
         major: "MAJOR",
-        interests: "list of interests"m
+        interests: "list of interests",
         contacts: {
             email: "mailto:EMAIL@umich.edu",
             instagram: "INSTA_LINK",
@@ -58,21 +58,9 @@ boardie_info = [
         }
     },
     {
-        name: "Seri Stewart",
-        photo: "../Data/boardies/seri.jpg", 
-        position: "Secretary",
-        year: "Junior",
-        major: "History of Art",
-        interests: "Art, Baking/Cooking, Finding Good Cafes, Bakeries",
-        contacts: {
-            email: "mailto:seri@umich.edu",
-            instagram: "https://www.instagram.com/seristew/",
-        }
-    },
-    {
         name: "Kayenne Ohno",
         photo: "../Data/boardies/kayenne.jpg", 
-        position: "Internal Chair",
+        position: "Internal Communications",
         year: "Junior",
         major: "BHS + Asian Studies",
         interests: "BASKETBALL, Reading (Goodreads), Eating, SUNSETS & SUNRISES",
@@ -84,7 +72,7 @@ boardie_info = [
     {
         name: "Roshan Sadhu",
         photo: "../Data/boardies/roshan.jpg", 
-        position: "External Chair",
+        position: "External Communications",
         year: "Junior",
         major: "Computer Science",
         interests: "Pro-Wrestling, Music, Soccer, Hot Sauce, NYT Games",
@@ -109,7 +97,7 @@ boardie_info = [
     {
         name: "Koki Umemura",
         photo: "../Data/boardies/koki.jpg", 
-        position: "Media & Marketing",
+        position: "Graphics & Marketing",
         year: "Sophomore",
         major: "Data Science + Linguistics",
         interests: "Skateboarding, Fishing, Karaoke, K-Drama",
@@ -121,7 +109,7 @@ boardie_info = [
     {
         name: "Yumena Nagai",
         photo: "../Data/boardies/yumena.jpg", 
-        position: "Kazoku Chair",
+        position: "Kazoku",
         year: "Sophomore",
         major: "Neuroscience",
         interests: "Baking, Skiing, Card Games",
@@ -133,7 +121,7 @@ boardie_info = [
     {
         name: "Jiu Won",
         photo: "../Data/boardies/jiu.jpg", 
-        position: "Intern",
+        position: "Historian",
         year: "Sophomore",
         major: "FTVM",
         interests: "Film, Matcha, Shopping",
@@ -145,13 +133,38 @@ boardie_info = [
     {
         name: "Michael Shepard",
         photo: "../Data/boardies/michael.jpg", 
-        position: "Intern",
+        position: "Secretarian",
         year: "Junior",
         major: "Computer Science",
         interests: "Hiking, Cooking, Board Games",
         contacts: {
             email: "mailto:michshep@umich.edu",
             instagram: "https://www.instagram.com/mich.shep_/",
+        }
+    },
+    {
+        name: "Ryosuke Michishita",
+        photo: "boardies/ryosuke.jpg",
+        position: "Business",
+        year: "Freshman",
+        major: "Aerospace Engineering",
+        interests: "Soccer, gaming, horror movies, visiting cool places",
+        contacts: {
+            email: "mailto:ryosukem@umich.edu",
+            instagram: "https://www.instagram.com/ryosuke___13/",
+            linkedin: "https://www.linkedin.com/in/rmichishita/"
+        }
+    },
+    {
+        name: "Micheal Woods",
+        photo: "boardies/micheal.jpg",
+        position: "Intern",
+        year: "Freshman",
+        major: "Neuroscience",
+        interests: "Skiing",
+        contacts: {
+            email: "mailto:wmicheal@umich.edu",
+            instagram: "https://www.instagram.com/micheal.woods1/",
         }
     },
 ]
