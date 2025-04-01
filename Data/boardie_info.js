@@ -2,11 +2,11 @@
 /*
     {
         name: "NAME",
-        photo: "boardies/PHOTO_FILENAME",
+        photo: "../Data/boardies/PHOTO_FILENAME",
         position: "BOARDIE_POSITION",
         year: "SCHOOL_YEAR",
         major: "MAJOR",
-        interests: "list of interests",
+        interests: "LIST_OF_INTERESTS",
         contacts: {
             email: "mailto:EMAIL@umich.edu",
             instagram: "INSTA_LINK",
@@ -144,7 +144,7 @@ boardie_info = [
     },
     {
         name: "Ryosuke Michishita",
-        photo: "boardies/ryosuke.jpg",
+        photo: "../Data/boardies/ryosuke.jpg",
         position: "Business",
         year: "Freshman",
         major: "Aerospace Engineering",
@@ -157,7 +157,7 @@ boardie_info = [
     },
     {
         name: "Micheal Woods",
-        photo: "boardies/micheal.jpg",
+        photo: "../Data/boardies/micheal.jpg",
         position: "Intern",
         year: "Freshman",
         major: "Neuroscience",
