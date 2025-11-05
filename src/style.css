@@ -179,7 +179,10 @@ ol, ul{
 #slider {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
-    margin-inline: 10%;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    height: 400px;
 }
 
 #slider figure {
@@ -193,6 +196,7 @@ ol, ul{
 #slider figure img {
     float: left;
     width: 20%;
+    border-radius: 10px;
 }
 
 .block {
