@@ -166,7 +166,7 @@ boardie_info = [
     {
         name: "Kotaro Broderick",
         photo: "../Data/boardies/Kotaro.JPG",
-        position: "External Communications",
+        position: "Co-External Communications",
         year: "Junior",
         major: "Computer Science",
         interests: "Planet Earth documentaries, banana bread, Lego flowers",
@@ -178,7 +178,7 @@ boardie_info = [
     {
         name: "Avery Bridgham",
         photo: "../Data/boardies/Avery.jpg",
-        position: "External Communications",
+        position: "Co-External Communications",
         year: "Sophomore",
         major: "Nursing",
         interests: "Singing, Volunteer Work, Eating, Yapping, Shopping",
@@ -204,11 +204,11 @@ boardie_info = [
         photo: "../Data/boardies/Nanami.jpg",
         position: "Intern",
         year: "Freshman",
-        major: "N/A",
-        interests: "N/A",
+        major: "Art and Design",
+        interests: "Drawing, Playing Piano/Guitar, Video Games, Eating, Sleeping",
         contacts: {
-            email: "mailto:abri@umich.edu",
-            instagram: "https://www.instagram.com/averybridgham/",
+            email: "mailto:nanamiao@umich.edu",
+            instagram: "https://www.instagram.com/nanamiao_25/",
         }
     },
 ]
