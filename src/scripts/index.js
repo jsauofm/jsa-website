@@ -217,7 +217,6 @@ function generate_events() {
             eventlink.href = all_events[i].eventlist[ev].photo_folder;
             eventlink.target = "_blank";
             eventlink.style = "color:rgb(245, 154, 154);";
-            eventlink.innerHTML = "See photos";
             eventinfo.appendChild(eventlink);
 
             eventi.appendChild(eventinfo);

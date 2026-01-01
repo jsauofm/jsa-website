@@ -606,6 +606,14 @@ hr.solid {
   background-color: rgb(245, 154, 154);
 }
 
+.instagram-intro {
+  position: relative;
+  clear: both;
+  margin-top: 80px;
+}
+
+
+
 @media all and (max-width: 1050px) {
   .navbar {
     flex-direction: column;
@@ -649,6 +657,9 @@ hr.solid {
   }
   #calendar {
     margin: 30px;
+  }
+  .instagram-intro {
+    margin-top: 60px;
   }
 }
 
@@ -742,6 +753,9 @@ hr.solid {
   .container5 {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .instagram-intro {
+    margin-top: 450px;
+  }
 }
 
 .mobile-banner {
@@ -813,6 +827,9 @@ hr.solid {
   }
   p {
     font-size: 16px;
+  }
+  .instagram-intro {
+    margin-top: 350px;
   }
 }
 
