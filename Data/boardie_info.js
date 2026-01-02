@@ -189,19 +189,19 @@ boardie_info = [
     },
     {
         name: "Skyler Ogonowski",
-        photo: "../Data/boardies/Skyler.jpg",
+        photo: "../Data/boardies/skyler.jpg",
         position: "Intern",
         year: "Freshman",
-        major: "N/A",
-        interests: "N/A",
+        major: "Education",
+        interests: "Tennis, Traveling, Film",
         contacts: {
-            email: "mailto:abri@umich.edu",
-            instagram: "https://www.instagram.com/averybridgham/",
+            email: "mailto:skyogo@umich.edu",
+            instagram: "https://www.instagram.com/skyler.ogonowski/",
         }
     },
     {
         name: "Nanami Ao",
-        photo: "../Data/boardies/Nanami.jpg",
+        photo: "../Data/boardies/nanami.jpg",
         position: "Intern",
         year: "Freshman",
         major: "Art and Design",
