@@ -124,7 +124,7 @@ boardie_info = [
         interests: "Cafe Hopping, Baking, Traveling, Art",
         contacts: {
             email: "mailto:seri@umich.edu",
-            instagram: "https://www.instagram.com/seristew/",
+            instagram: "https://www.instagram.com/seriestew/",
         }
     },
     {
