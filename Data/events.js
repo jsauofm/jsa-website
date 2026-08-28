@@ -23,7 +23,7 @@
 all_events = [
     // new semesters go right below here
     {
-        semester: "FALL 2025",
+        semester: "FALL 2026",
         eventlist: [
             // new events go right below here
             {

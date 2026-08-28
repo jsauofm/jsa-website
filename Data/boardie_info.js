@@ -21,194 +21,191 @@
 
 boardie_info = [
     {
-        name: "Yumena Nagai",
-        photo: "../Data/boardies/Yumena.jpg", 
-        position: "President",
-        year: "Junior",
-        major: "Neuroscience / Stats Minor",
-        interests: "Baking, Skiing, Traveling, Eating",
-        contacts: {
-            email: "mailto:yumena@umich.edu",
-            instagram: "https://www.instagram.com/yumenanagai/",
-        }
-    },
-    {
-        name: "Koki Umemura",
-        photo: "../Data/boardies/Koki.jpg", 
-        position: "Vice President",
-        year: "Junior",
-        major: "Data Science + Linguistics",
-        interests: "Fishing, Skateboarding, Tennis, Volleyball, Cooking",
-        contacts: {
-            email: "mailto:linah@umich.edu",
-            instagram: "https://www.instagram.com/linahashi/",
-        }
-    },
-    {
-        name: "Tasuku Uraguchi",
-        photo: "../Data/boardies/Tasuku.jpg", 
-        position: "Vice President",
-        year: "Senior",
-        major: "Biomedical Engineering",
-        interests: "Soccer, Skiing, Cooking, Hiking",
-        contacts: {
-            email: "mailto:tasukuu@umich.edu",
-            instagram: "https://www.instagram.com/tasukura/",
-        }
-    },
-    {
-        name: "Lina Hashimoto",
-        photo: "../Data/boardies/lina.jpeg", 
-        position: "Senior Advisor",
-        year: "Senior",
-        major: "Graphic design + UX minor",
-        interests: "Travel + sticker store",
-        contacts: {
-            email: "mailto:linah@umich.edu",
-        }
-    },
-    {
-        name: "Kayenne Ohno",
-        photo: "../Data/boardies/Kayenne.jpg", 
-        position: "Secretary",
-        year: "Senior",
-        major: "Biology, Health, and Society",
-        interests: "Reading, Playing Basketball, Anime!, Music <3",
-        contacts: {
-            email: "mailto:kayohno@umich.edu",
-            instagram: "https://www.instagram.com/kaenoono/",
-        }
-    },
-    {
-        name: "Nelson Zarco Jr",
-        photo: "../Data/boardies/Nelson.jpg", 
-        position: "Co-Graphics & Marketing",
-        year: "Junior",
-        major: "LSA Computer Science",
-        interests: "Art, Skateboarding, Gym",
-        contacts: {
-            email: "mailto:nzarco@umich.edu",
-            instagram: "https://www.instagram.com/its.jr312/",
-        }
-    },
-    {
-        name: "Jasmine Abu",
-        photo: "../Data/boardies/jasmine.jpg", 
-        position: "Co-Graphics & Marketing",
-        year: "Sophomore",
-        major: "Urban Tech + UX minor",
-        interests: "Lacrosse, Otters, Drawing",
-        contacts: {
-            email: "mailto:jasmiabu@umich.edu",
-            instagram: "https://www.instagram.com/0tterz_rkool/",
-        }
-    },
-    {
-        name: "Ryosuke Michishita",
-        photo: "../Data/boardies/Ryosuke.jpeg",
-        position: "Business",
-        year: "Sophomore",
-        major: "Aerospace Engineering",
-        interests: "Watching Soccer, Exploring Nature, Traveling, Games",
-        contacts: {
-            email: "mailto:ryosukem@umich.edu",
-            instagram: "https://www.instagram.com/ryosuke___13/",
-        }
-    },
-    {
-        name: "Seri Stewart",
-        photo: "../Data/boardies/Seri.jpg", 
-        position: "Co-Internal Communications",
-        year: "Senior",
-        major: "History of Art",
-        interests: "Cafe Hopping, Baking, Traveling, Art",
-        contacts: {
-            email: "mailto:seri@umich.edu",
-            instagram: "https://www.instagram.com/seriestew/",
-        }
-    },
-    {
-        name: "Yuna Miyoshi",
-        photo: "../Data/boardies/Yuna.jpg",
-        position: "Co-Internal Communications",
-        year: "Sophomore",
-        major: "Computer Science",
-        interests: "Baking/Cooking, Legos, Playing the Wii/3DS",
-        contacts: {
-            email: "mailto:ymiyoshi@umich.edu",
-            instagram: "https://www.instagram.com/yuna.m06/",
-        }
-    },
-    {
-        name: "Jiu Won",
-        photo: "../Data/boardies/Jiu.jpg", 
-        position: "Kazoku Chair",
-        year: "Junior",
-        major: "FTVM",
-        interests: "Figure Skating, Filming, Shopping, Gaming",
-        contacts: {
-            email: "mailto:jiuwon@umich.edu",
-            instagram: "https://www.instagram.com/jiuwon/",
-        }
-    },
-    {
-        name: "Micheal Woods",
-        photo: "../Data/boardies/woods.jpg",
-        position: "Finance Chair",
-        year: "Sophomore",
-        major: "Neuroscience",
-        interests: "Soccer, Skiing, Kayaking, Pokemon",
-        contacts: {
-            email: "mailto:wmicheal@umich.edu",
-            instagram: "https://www.instagram.com/micheal.woods1/",
-        }
-    },
-    {
-        name: "Kotaro Broderick",
-        photo: "../Data/boardies/Kotaro.JPG",
-        position: "Co-External Communications",
-        year: "Junior",
-        major: "Computer Science",
-        interests: "Planet Earth documentaries, banana bread, Lego flowers",
-        contacts: {
-            email: "mailto:kotarobr@umich.edu",
-            instagram: "https://www.instagram.com/ko7aro/",
-        }
-    },
-    {
         name: "Avery Bridgham",
-        photo: "../Data/boardies/Avery.jpg",
-        position: "Co-External Communications",
-        year: "Sophomore",
+        photo: "../Data/boardies/Avery.jpeg", 
+        position: "Co-President",
+        year: "Junior",
         major: "Nursing",
-        interests: "Singing, Volunteer Work, Eating, Yapping, Shopping",
+        interests: "Baking, Traveling, Karaoke",
         contacts: {
             email: "mailto:abri@umich.edu",
             instagram: "https://www.instagram.com/averybridgham/",
         }
     },
     {
+        name: "Micheal Woods",
+        photo: "../Data/boardies/Woods.jpeg", 
+        position: "Co-President",
+        year: "Junior",
+        major: "Neuroscience",
+        interests: "Soccer, Skiing, Piano",
+        contacts: {
+            email: "mailto:wmicheal@umich.edu",
+            instagram: "https://www.instagram.com/micheal.woods1/",
+        }
+    },
+    {
+        name: "Nelson Zarco Jr",
+        photo: "../Data/boardies/Nelson.jpeg",
+        position: "Vice President",
+        year: "Senior",
+        major: "Computer Science",
+        interests: "Digital Art, Soccer, Gym",
+        contacts: {
+            instagram: "https://www.instagram.com/its.jr312/",
+        }
+    },
+    {
+        name: "Nanami Ao",
+        photo: "../Data/boardies/nanami.jpeg",
+        position: "Co-Business",
+        year: "Sophomore",
+        major: "Art and Design",
+        interests: "Playing Piano, Eating, Sleeping",
+        contacts: {
+            email: "mailto:nanamiao@umich.edu",
+        }
+    },
+    {
+        name: "Ryosuke Michishita",
+        photo: "../Data/boardies/Ryosuke.jpeg",
+        position: "Co-Business",
+        year: "Junior",
+        major: "Aerospace Engineering",
+        interests: "Rock Climbing, League, Watching football",
+        contacts: {
+            email: "mailto:ryosukem@umich.edu",
+            instagram: "https://www.instagram.com/ryosuke___13/",
+        }
+    },
+    {
+        name: "Yuna Miyoshi",
+        photo: "../Data/boardies/Yuna.jpeg",
+        position: "Internal Communications",
+        year: "Junior",
+        major: "Computer Science",
+        interests: "Cooking, Eating, Sudoku",
+        contacts: {
+            email: "mailto:ymiyoshi@umich.edu",
+            instagram: "https://www.instagram.com/yuna.m06/",
+        }
+    },
+    {
+        name: "Kotaro Broderick",
+        photo: "../Data/boardies/Kotaro.jpeg",
+        position: "Co-External Communications",
+        year: "Senior",
+        major: "Computer Science",
+        interests: "Baking banana bread, eating banana bread, Catsitting",
+        contacts: {
+        }
+    },
+    {
+        name: "Cassie Couch",
+        photo: "../Data/boardies/Cassie.jpeg",
+        position: "Co-External Communications",
+        year: "Junior",
+        major: "Biology, Health, and Society",
+        interests: "Hiking, Smoothies, Karaoke, Traveling",
+        contacts: {
+            email: "mailto:cecouch@umich.edu",
+            instagram: "https://www.instagram.com/cassieecouch/",
+        }
+    },
+    {
+        name: "Jasmine Abu",
+        photo: "../Data/boardies/jasmine.jpeg", 
+        position: "Co-Graphics Chair",
+        year: "Junior",
+        major: "Urban Technology",
+        interests: "Drawing, Dancing, Music",
+        contacts: {
+            email: "mailto:jasmiabu@umich.edu",
+            instagram: "https://www.instagram.com/0tterz_rkool/",
+        }
+    },
+    {
+        name: "Teddy Shindo",
+        photo: "../Data/boardies/Teddy.jpeg", 
+        position: "Co-Graphics Chair",
+        year: "Junior",
+        major: "Psychology",
+        interests: "Gardening, Cooking, Crocheting",
+        contacts: {
+            email: "mailto:tshindo@umich.edu",
+            instagram: "https://www.instagram.com/teddy_forestbear/",
+        }
+    },
+    {
+        name: "Joani Kaleshi",
+        photo: "../Data/boardies/joani.jpeg",
+        position: "Finance Chair",
+        year: "Junior",
+        major: "Computer Science",
+        interests: "Gym, Soccer, Chicken Bakes",
+        contacts: {
+            email: "mailto:joanik@umich.edu",
+            instagram: "https://www.instagram.com/joanik36/",
+        }
+    },
+    {
         name: "Skyler Ogonowski",
-        photo: "../Data/boardies/skyler.jpg",
-        position: "Intern",
-        year: "Freshman",
+        photo: "../Data/boardies/skyler.jpeg",
+        position: "Kazoku Chair",
+        year: "Sophomore",
         major: "Education",
-        interests: "Tennis, Traveling, Film",
+        interests: "Tennis, Scrapbooking, Film",
         contacts: {
             email: "mailto:skyogo@umich.edu",
             instagram: "https://www.instagram.com/skyler.ogonowski/",
         }
     },
     {
-        name: "Nanami Ao",
-        photo: "../Data/boardies/nanami.jpg",
+        name: "Michelle Plaisted",
+        photo: "../Data/boardies/michelle.jpeg",
         position: "Intern",
-        year: "Freshman",
-        major: "Art and Design",
-        interests: "Drawing, Playing Piano/Guitar, Video Games, Eating, Sleeping",
+        year: "Sophomore",
+        major: "Chemical Engineering",
+        interests: "Piano, Tennis, Hiking",
         contacts: {
-            email: "mailto:nanamiao@umich.edu",
-            instagram: "https://www.instagram.com/nanamiao_25/",
+            email: "mailto:mplais@umich.edu",
+            instagram: "https://www.instagram.com/michellep.12/",
+        }
+    },
+    {
+        name: "Yumena Nagai",
+        photo: "../Data/boardies/yumena.jpeg",
+        position: "Senior Advisor",
+        year: "Senior",
+        major: "Neuroscience",
+        interests: "Baking, Skiing, Traveling",
+        contacts: {
+            email: "mailto:yumena@umich.edu",
+            instagram: "https://www.instagram.com/yumenanagai/",
+        }
+    },
+    {
+        name: "Tasuku Uraguchi",
+        photo: "../Data/boardies/Tasuku.jpeg", 
+        position: "Senior Advisor",
+        year: "Senior",
+        major: "Electrical/Biomedical Engineering",
+        interests: "Soccer, Skiing, Cooking",
+        contacts: {
+            email: "mailto:tasukuu@umich.edu",
+            instagram: "https://www.instagram.com/tasukura/",
+        }
+    },
+    {
+        name: "Koki Umemura",
+        photo: "../Data/boardies/Koki.jpeg", 
+        position: "Senior Advisor",
+        year: "Senior",
+        major: "Data Science + Linguistics",
+        interests: "Fishing, Tennis, Volleyball",
+        contacts: {
+            email: "mailto:kumemura@umich.edu",
+            instagram: "https://www.instagram.com/k.12o1/",
         }
     },
 ]

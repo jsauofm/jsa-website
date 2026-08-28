@@ -6,7 +6,9 @@
 
 newsletters = [
     // new newsletters go right below here
-    {time: "NOV 2025", link: "https://www.canva.com/design/DAG6UMdv1Sw/wZGCAlTFwncmzSWUw0aefg/view?utm_content=DAG6UMdv1Sw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1bb09d5c83"},
+    {time: "FEB 2026", link: "https://www.canva.com/design/DAHCGaUz-OA/YBc8g6eVj1gziM-pGb1ZxQ/view?utm_content=DAHCGaUz-OA&utm_campaign=designshare&utm_medium=link&utm_source=viewer"},
+    {time: "JAN 2026", link: "https://www.canva.com/design/DAG_dOywms4/f_ioqXKgCHR2kFrcXlUkRQ/view?utm_content=DAG_dOywms4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha435ae3ea4"},
+    {time: "NOV/DEC 2025", link: "https://www.canva.com/design/DAG6UMdv1Sw/wZGCAlTFwncmzSWUw0aefg/view?utm_content=DAG6UMdv1Sw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1bb09d5c83"},
     {time: "OCT 2025", link: "https://www.canva.com/design/DAG2XwFnqeA/bRzYqdn4POt6ambC4fQYsg/view?utm_content=DAG2XwFnqeA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h511057ae12"},
     {time: "SEP 2025", link: "https://www.canva.com/design/DAGzGUK2-18/cCcrJ_oU3X-ku43kAQ8v8w/view?utm_content=DAGzGUK2-18&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5989a36c9b"},
     {time: "MAR 2024", link: "https://www.canva.com/design/DAF_xk05hPw/6F4HHTtfw4C7HCEkzHpJMw/view?utm_content=DAF_xk05hPw&utm_campaign=designshare&utm_medium=link&utm_source=editor"},

@@ -75,12 +75,12 @@ header{
 	
 #menu li a{
     font-size: 18px;
-	color: rgb(245, 154, 154);
+	color: rgb(154, 57, 57);
 }
 	
 #menu li:hover a, #menu li span{
 	background: white;
-	color: rgb(253, 169, 169);
+	color: rgb(154, 57, 57);
 	text-decoration: none;
 }
 
@@ -318,20 +318,20 @@ ol, ul{
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid rgb(245, 154, 154);
+  border: 5px solid rgb(154, 57, 57);
 }
 
 .sticker__image {
   height: 55%;
   width: 90%;
-  border: 2px solid rgb(245, 154, 154);
+  border: 2px solid rgb(154, 57, 57);
   margin-top: 10%;
 }
 
 .apparel__image {
   height: 55%;
   width: 90%;
-  border: 2px solid rgb(245, 154, 154);
+  border: 2px solid rgb(154, 57, 57);
   margin-top: 10%;
 }
 
@@ -369,7 +369,7 @@ ol, ul{
 }
 
 .icon-background {
-  color: rgb(245, 154, 154);
+  color: rgb(154, 57, 57);
 }
 
 .event {
@@ -426,7 +426,7 @@ ol, ul{
     margin: 0;
     padding: 6%;
     font-size: 30px;
-    color: rgb(245, 154, 154);
+    color: rgb(154, 57, 57);
     line-height: 1.5;
   }
   
@@ -456,7 +456,7 @@ ol, ul{
 
 
 .button {
-  background-color:rgb(245, 154, 154);
+  background-color:rgb(154, 57, 57);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -551,7 +551,7 @@ hr.solid {
 /* navbar */
 .navbar {
   background-color: white;
-  color: rgb(245, 154, 154);
+  color: rgb(154, 57, 57);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -576,14 +576,14 @@ hr.solid {
 }
 
 .navbar a {
-  color: rgb(245, 154, 154);
+  color: rgb(154, 57, 57);
   text-decoration: none;
   font-weight: 600;
 /*  line-height: 1.5vw;*/
 }
 
 .navbar a:hover {
-  color: rgb(253, 169, 169);
+  color: rgb(154, 57, 57);
 }
 
 .navbar ul {
@@ -603,7 +603,7 @@ hr.solid {
   height: 3px;
   margin-bottom: 4px;
   display: none;
-  background-color: rgb(245, 154, 154);
+  background-color: rgb(154, 57, 57);
 }
 
 .instagram-intro {
@@ -676,7 +676,7 @@ hr.solid {
 }
 
 .footer {
-  background-color: rgb(245, 154, 154);
+  background-color: rgb(154, 57, 57);
   color: white;
   text-align: center;
   padding-top: 20px;
@@ -691,7 +691,7 @@ hr.solid {
   max-width: 200px;
   /* float: right; */
   border-radius: 100%;
-  border: solid 5px rgb(245, 154, 154);
+  border: solid 5px rgb(154, 57, 57);
 }
 
 .test {

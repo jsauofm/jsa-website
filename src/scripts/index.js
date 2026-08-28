@@ -96,11 +96,11 @@ function generate_newsletters() {
 
 function generate_business_info() {
     let business_info = document.getElementById("business-info");
-    business_info.innerHTML = "Our Business Chair " + business.name + " has put together resources to help students " +
+    business_info.innerHTML = "Our Business Chairs, " + business.name1 + " and " + business.name2 + ", has put together resources to help students " +
     "interested in a career and internship opportunities in Japan. They manage an email list and a Facebook page to give " +
-    "information on the recruitment process as well as company updates. If you're interested, sign up for the email list " +
-    "or the facebook page with the link below. Finally, if you have any questions, feel free to reach out to <a href=\"mailto:"
-    + business.email + "\">" + business.email + "</a>";
+    "information on the recruitment process as well as company updates. If you are interested, sign up for the email list " +
+    "with the link below. Finally, if you have any questions, feel free to reach out to <a href=\"mailto:"
+    + business.email1 + "\">" + business.email1 + "</a> and <a href=\"mailto:" + business.email2 + "\">" + business.email2 + "</a>.";
 }
 
 
@@ -113,7 +113,7 @@ function generate_merch() {
         '\" target="_blank" class="button">Merch Order Form</a>';
     } else {
         merchorder.innerHTML = '<p class="descriptions"><b>Sorry, the merch order form is closed as of now. ' +
-        'We will re-open the form along with new merches in the future!</b></p>';
+        'We will re-open the form along with new merchandise in the future!</b></p>';
     }
 
     // stickers
@@ -189,7 +189,7 @@ function generate_events() {
 
     for (let i=0; i<all_events.length; i++) {
         // event semester
-        eventfields.innerHTML += "<h2 style=\"color:rgb(245, 154, 154);\">" +
+        eventfields.innerHTML += "<h2 style=\"color:rgb(154, 57, 57);\">" +
         all_events[i].semester + "</h2><br>";
 
         let semester = document.createElement("div");
